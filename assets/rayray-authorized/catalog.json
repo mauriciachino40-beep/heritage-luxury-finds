@@ -779,7 +779,19 @@
     ],
     "category": "love",
     "description": "A thoughtfully selected bracelet from Lisa's private jewelry edit. Designed for effortless everyday styling, it can be worn alone or paired with coordinating pieces to create a personal set. Choose your preferred option and Lisa will confirm availability, sizing and final order details directly.",
-    "source": "old-site-authorized"
+    "source": "old-site-authorized",
+    "videos": [
+      {
+        "src": "assets/product-videos/downloads-batch-40/o1664032751_7797_1.mp4",
+        "label": "Rose gold detail",
+        "orientation": "portrait"
+      },
+      {
+        "src": "assets/product-videos/downloads-batch-40/o1664032700_8546_1.mp4",
+        "label": "Stacked styling",
+        "orientation": "portrait"
+      }
+    ]
   },
   {
     "handle": "vintage-alhambra-10-motifs-necklace",
@@ -971,7 +983,14 @@
     ],
     "category": "clover",
     "description": "A thoughtfully selected bracelet from Lisa's private jewelry edit. Designed for effortless everyday styling, it can be worn alone or paired with coordinating pieces to create a personal set. Choose your preferred option and Lisa will confirm availability, sizing and final order details directly.",
-    "source": "old-site-authorized"
+    "source": "old-site-authorized",
+    "videos": [
+      {
+        "src": "assets/product-videos/downloads-batch-40/o1770371044821_4377_0_0.mp4",
+        "label": "Beaded pavé detail",
+        "orientation": "portrait"
+      }
+    ]
   },
   {
     "handle": "vintage-alhambra-black-10-motifs-clover-necklace",
@@ -1472,7 +1491,14 @@
     ],
     "category": "clover",
     "description": "A thoughtfully selected bracelet from Lisa's private jewelry edit. Designed for effortless everyday styling, it can be worn alone or paired with coordinating pieces to create a personal set. Choose your preferred option and Lisa will confirm availability, sizing and final order details directly.",
-    "source": "old-site-authorized"
+    "source": "old-site-authorized",
+    "videos": [
+      {
+        "src": "assets/product-videos/downloads-batch-40/o1788676421188_9328_0_0.mp4",
+        "label": "Butterfly bracelet detail",
+        "orientation": "portrait"
+      }
+    ]
   },
   {
     "handle": "sweet-alhambra-butterfly-stud-earrings-1",
@@ -1797,7 +1823,14 @@
     ],
     "category": "clover",
     "description": "A thoughtfully selected necklace from Lisa's private jewelry edit. Designed for effortless everyday styling, it can be worn alone or paired with coordinating pieces to create a personal set. Choose your preferred option and Lisa will confirm availability, sizing and final order details directly.",
-    "source": "old-site-authorized"
+    "source": "old-site-authorized",
+    "videos": [
+      {
+        "src": "assets/product-videos/downloads-batch-40/o1770371542355_5485_0_0.mp4",
+        "label": "Pavé and black clover styling",
+        "orientation": "portrait"
+      }
+    ]
   },
   {
     "handle": "alhambra-clover-ring",
@@ -2337,7 +2370,14 @@
     ],
     "category": "clover",
     "description": "A thoughtfully selected bracelet from Lisa's private jewelry edit. Designed for effortless everyday styling, it can be worn alone or paired with coordinating pieces to create a personal set. Choose your preferred option and Lisa will confirm availability, sizing and final order details directly.",
-    "source": "old-site-authorized"
+    "source": "old-site-authorized",
+    "videos": [
+      {
+        "src": "assets/product-videos/downloads-batch-40/o1756966252124_2523_0_0.mp4",
+        "label": "Black onyx and pavé detail",
+        "orientation": "portrait"
+      }
+    ]
   },
   {
     "handle": "vintage-alhambra-five-motifs-clover-onyx-bracelet",
@@ -2714,7 +2754,14 @@
     ],
     "category": "clover",
     "description": "A thoughtfully selected necklace from Lisa's private jewelry edit. Designed for effortless everyday styling, it can be worn alone or paired with coordinating pieces to create a personal set. Choose your preferred option and Lisa will confirm availability, sizing and final order details directly.",
-    "source": "old-site-authorized"
+    "source": "old-site-authorized",
+    "videos": [
+      {
+        "src": "assets/product-videos/downloads-batch-40/o1770371460420_1865_0_0.mp4",
+        "label": "Red heart detail",
+        "orientation": "portrait"
+      }
+    ]
   },
   {
     "handle": "clover-iridescent-mother-of-pearl-laser-five-motifs-bracelet",
@@ -2758,7 +2805,19 @@
     ],
     "category": "clover",
     "description": "A thoughtfully selected ring from Lisa's private jewelry edit. Designed for effortless everyday styling, it can be worn alone or paired with coordinating pieces to create a personal set. Choose your preferred option and Lisa will confirm availability, sizing and final order details directly.",
-    "source": "old-site-authorized"
+    "source": "old-site-authorized",
+    "videos": [
+      {
+        "src": "assets/kaleidoscope-videos/rose-gold.mp4",
+        "label": "Rose gold detail",
+        "orientation": "landscape"
+      },
+      {
+        "src": "assets/product-videos/downloads-batch-40/o1757224159783_3420_0_0.mp4",
+        "label": "Three-color comparison",
+        "orientation": "landscape"
+      }
+    ]
   },
   {
     "handle": "clover-kaleidoscope-white-gold-ring",
@@ -2780,7 +2839,19 @@
     ],
     "category": "clover",
     "description": "A thoughtfully selected ring from Lisa's private jewelry edit. Designed for effortless everyday styling, it can be worn alone or paired with coordinating pieces to create a personal set. Choose your preferred option and Lisa will confirm availability, sizing and final order details directly.",
-    "source": "old-site-authorized"
+    "source": "old-site-authorized",
+    "videos": [
+      {
+        "src": "assets/kaleidoscope-videos/white-gold.mp4",
+        "label": "White gold detail",
+        "orientation": "landscape"
+      },
+      {
+        "src": "assets/product-videos/downloads-batch-40/o1757224159783_3420_0_0.mp4",
+        "label": "Three-color comparison",
+        "orientation": "landscape"
+      }
+    ]
   },
   {
     "handle": "clover-kaleidoscope-yellow-gold-ring",
@@ -2802,7 +2873,19 @@
     ],
     "category": "clover",
     "description": "A thoughtfully selected ring from Lisa's private jewelry edit. Designed for effortless everyday styling, it can be worn alone or paired with coordinating pieces to create a personal set. Choose your preferred option and Lisa will confirm availability, sizing and final order details directly.",
-    "source": "old-site-authorized"
+    "source": "old-site-authorized",
+    "videos": [
+      {
+        "src": "assets/kaleidoscope-videos/yellow-gold.mp4",
+        "label": "Yellow gold detail",
+        "orientation": "landscape"
+      },
+      {
+        "src": "assets/product-videos/downloads-batch-40/o1757224159783_3420_0_0.mp4",
+        "label": "Three-color comparison",
+        "orientation": "landscape"
+      }
+    ]
   },
   {
     "handle": "vintage-alhambra-long-necklace",
@@ -3352,7 +3435,19 @@
     ],
     "category": "clover",
     "description": "A thoughtfully selected ring from Lisa's private jewelry edit. Designed for effortless everyday styling, it can be worn alone or paired with coordinating pieces to create a personal set. Choose your preferred option and Lisa will confirm availability, sizing and final order details directly.",
-    "source": "old-site-authorized"
+    "source": "old-site-authorized",
+    "videos": [
+      {
+        "src": "assets/product-videos/downloads-batch-40/cmp_o1789059449050_2581_0_0.mp4",
+        "label": "On-ear styling",
+        "orientation": "portrait"
+      },
+      {
+        "src": "assets/product-videos/downloads-batch-40/o1790002641410_417_0_0.mp4",
+        "label": "Drop earring detail",
+        "orientation": "portrait"
+      }
+    ]
   },
   {
     "handle": "clover-pink-bubble-enamel-five-motifs-bracelet",
@@ -4150,7 +4245,14 @@
     ],
     "category": "clover",
     "description": "A thoughtfully selected ring from Lisa's private jewelry edit. Designed for effortless everyday styling, it can be worn alone or paired with coordinating pieces to create a personal set. Choose your preferred option and Lisa will confirm availability, sizing and final order details directly.",
-    "source": "old-site-authorized"
+    "source": "old-site-authorized",
+    "videos": [
+      {
+        "src": "assets/supplier-butterfly/earrings/detail.mp4",
+        "label": "Earring detail",
+        "orientation": "portrait"
+      }
+    ]
   },
   {
     "handle": "clover-white-mother-of-pearl-butterfly-necklace",
@@ -4172,7 +4274,24 @@
     ],
     "category": "clover",
     "description": "A thoughtfully selected necklace from Lisa's private jewelry edit. Designed for effortless everyday styling, it can be worn alone or paired with coordinating pieces to create a personal set. Choose your preferred option and Lisa will confirm availability, sizing and final order details directly.",
-    "source": "old-site-authorized"
+    "source": "old-site-authorized",
+    "videos": [
+      {
+        "src": "assets/supplier-butterfly/necklace/detail-01.mp4",
+        "label": "Necklace detail",
+        "orientation": "portrait"
+      },
+      {
+        "src": "assets/supplier-butterfly/necklace/detail-02.mp4",
+        "label": "Necklace styling",
+        "orientation": "portrait"
+      },
+      {
+        "src": "assets/supplier-butterfly/necklace/detail-03.mp4",
+        "label": "Mother of pearl detail",
+        "orientation": "portrait"
+      }
+    ]
   },
   {
     "handle": "double-charm-bracelet",
@@ -4457,7 +4576,14 @@
     ],
     "category": "nail",
     "description": "A thoughtfully selected bracelet from Lisa's private jewelry edit. Designed for effortless everyday styling, it can be worn alone or paired with coordinating pieces to create a personal set. Choose your preferred option and Lisa will confirm availability, sizing and final order details directly.",
-    "source": "old-site-authorized"
+    "source": "old-site-authorized",
+    "videos": [
+      {
+        "src": "assets/product-videos/downloads-batch-40/o1664032700_8546_1.mp4",
+        "label": "Nail and screw bracelet styling",
+        "orientation": "portrait"
+      }
+    ]
   },
   {
     "handle": "floral-between-the-finger-ring",
@@ -5381,7 +5507,14 @@
     ],
     "category": "hardware",
     "description": "A thoughtfully selected bracelet from Lisa's private jewelry edit. Designed for effortless everyday styling, it can be worn alone or paired with coordinating pieces to create a personal set. Choose your preferred option and Lisa will confirm availability, sizing and final order details directly.",
-    "source": "old-site-authorized"
+    "source": "old-site-authorized",
+    "videos": [
+      {
+        "src": "assets/product-videos/downloads-batch-40/o1769935682589_1757_0_0.mp4",
+        "label": "Hardware bracelet assortment",
+        "orientation": "portrait"
+      }
+    ]
   },
   {
     "handle": "hardware-link-pendant-necklace",
@@ -5403,7 +5536,14 @@
     ],
     "category": "hardware",
     "description": "A thoughtfully selected necklace from Lisa's private jewelry edit. Designed for effortless everyday styling, it can be worn alone or paired with coordinating pieces to create a personal set. Choose your preferred option and Lisa will confirm availability, sizing and final order details directly.",
-    "source": "old-site-authorized"
+    "source": "old-site-authorized",
+    "videos": [
+      {
+        "src": "assets/product-videos/downloads-batch-40/o1764067199698_9131_0_0.mp4",
+        "label": "Pavé link detail",
+        "orientation": "portrait"
+      }
+    ]
   },
   {
     "handle": "hardware-mini-u-link-pave-necklace",
@@ -5491,7 +5631,19 @@
     ],
     "category": "hardware",
     "description": "A thoughtfully selected bracelet from Lisa's private jewelry edit. Designed for effortless everyday styling, it can be worn alone or paired with coordinating pieces to create a personal set. Choose your preferred option and Lisa will confirm availability, sizing and final order details directly.",
-    "source": "old-site-authorized"
+    "source": "old-site-authorized",
+    "videos": [
+      {
+        "src": "assets/product-videos/downloads-batch-40/o1704536663_6794_0.mp4",
+        "label": "White gold detail",
+        "orientation": "landscape"
+      },
+      {
+        "src": "assets/product-videos/downloads-batch-40/o1769935682589_1757_0_0.mp4",
+        "label": "Color assortment",
+        "orientation": "portrait"
+      }
+    ]
   },
   {
     "handle": "hardware-u-link-pave-earrings",
@@ -8618,7 +8770,14 @@
     ],
     "category": "nail",
     "description": "A thoughtfully selected necklace from Lisa's private jewelry edit. Designed for effortless everyday styling, it can be worn alone or paired with coordinating pieces to create a personal set. Choose your preferred option and Lisa will confirm availability, sizing and final order details directly.",
-    "source": "old-site-authorized"
+    "source": "old-site-authorized",
+    "videos": [
+      {
+        "src": "assets/product-videos/downloads-batch-40/o1616050631_257_1.mp4",
+        "label": "Pavé open circle detail",
+        "orientation": "portrait"
+      }
+    ]
   },
   {
     "handle": "juste-un-clou-plain-round-necklace",
@@ -8756,7 +8915,29 @@
     ],
     "category": "hardware",
     "description": "A thoughtfully selected bracelet from Lisa's private jewelry edit. Designed for effortless everyday styling, it can be worn alone or paired with coordinating pieces to create a personal set. Choose your preferred option and Lisa will confirm availability, sizing and final order details directly.",
-    "source": "old-site-authorized"
+    "source": "old-site-authorized",
+    "videos": [
+      {
+        "src": "assets/product-videos/downloads-batch-40/o1732702911_6494_0.mp4",
+        "label": "Yellow gold detail",
+        "orientation": "landscape"
+      },
+      {
+        "src": "assets/product-videos/downloads-batch-40/o1732702890_3661_0.mp4",
+        "label": "Rose gold detail",
+        "orientation": "landscape"
+      },
+      {
+        "src": "assets/product-videos/downloads-batch-40/o1732702845_2710_0.mp4",
+        "label": "White gold detail",
+        "orientation": "landscape"
+      },
+      {
+        "src": "assets/product-videos/downloads-batch-40/o1769935682589_1757_0_0.mp4",
+        "label": "Color assortment",
+        "orientation": "portrait"
+      }
+    ]
   },
   {
     "handle": "pave-heart-necklace",
@@ -8778,7 +8959,14 @@
     ],
     "category": "necklace",
     "description": "A thoughtfully selected necklace from Lisa's private jewelry edit. Designed for effortless everyday styling, it can be worn alone or paired with coordinating pieces to create a personal set. Choose your preferred option and Lisa will confirm availability, sizing and final order details directly.",
-    "source": "old-site-authorized"
+    "source": "old-site-authorized",
+    "videos": [
+      {
+        "src": "assets/product-videos/pave-heart-necklace/detail.mp4",
+        "label": "Pavé heart detail",
+        "orientation": "landscape"
+      }
+    ]
   },
   {
     "handle": "pave-knot-necklace",
@@ -10474,7 +10662,14 @@
     ],
     "category": "love",
     "description": "A thoughtfully selected bracelet from Lisa's private jewelry edit. Designed for effortless everyday styling, it can be worn alone or paired with coordinating pieces to create a personal set. Choose your preferred option and Lisa will confirm availability, sizing and final order details directly.",
-    "source": "old-site-authorized"
+    "source": "old-site-authorized",
+    "videos": [
+      {
+        "src": "assets/product-videos/downloads-batch-40/o1709464097_7614_0.mp4",
+        "label": "Pavé bracelet comparison",
+        "orientation": "portrait"
+      }
+    ]
   },
   {
     "handle": "woven-key-pendant-necklace",
@@ -10496,6 +10691,23 @@
     ],
     "category": "knot",
     "description": "A thoughtfully selected necklace from Lisa's private jewelry edit. Designed for effortless everyday styling, it can be worn alone or paired with coordinating pieces to create a personal set. Choose your preferred option and Lisa will confirm availability, sizing and final order details directly.",
-    "source": "old-site-authorized"
+    "source": "old-site-authorized",
+    "videos": [
+      {
+        "src": "assets/product-videos/woven-key-pendant-necklace/rose-gold-detail.mp4",
+        "label": "Rose gold detail",
+        "orientation": "portrait"
+      },
+      {
+        "src": "assets/product-videos/woven-key-pendant-necklace/white-gold-detail.mp4",
+        "label": "White gold detail",
+        "orientation": "portrait"
+      },
+      {
+        "src": "assets/product-videos/woven-key-pendant-necklace/color-comparison.mp4",
+        "label": "Color comparison",
+        "orientation": "landscape"
+      }
+    ]
   }
 ]

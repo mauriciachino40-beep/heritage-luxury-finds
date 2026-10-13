@@ -3,7 +3,7 @@ const safe = value => String(value ?? '').replace(/[&<>"']/g, character => ({
 }[character]));
 const visualMatch = document.createElement('link');
 visualMatch.rel = 'stylesheet';
-visualMatch.href = 'rayray-match.css?v=20261013-1';
+visualMatch.href = 'rayray-match.css?v=20261013-2';
 document.head.append(visualMatch);
 const menuButton = document.createElement('button');
 menuButton.className = 'mobile-menu';
@@ -38,6 +38,14 @@ fetch('assets/rayray-authorized/catalog.json')
           <button id="add" class="product-add" type="button">ADD TO LISA ORDER</button><p class="private-note">Lisa will personally confirm availability, the final eligible discount, delivery and payment instructions before you pay.</p>
         </div>
       </section>`;
+    if (product.videos?.length) {
+      app.insertAdjacentHTML('beforeend', `<section class="lisa-product-motion"><h2>SEE IT IN MOTION</h2><p>Hover to play · Tap for controls</p><div>${product.videos.map(video => `<figure class="${safe(video.orientation || 'portrait')}"><video controls muted loop playsinline preload="metadata" poster="${safe(product.images[0])}" aria-label="${safe(`${product.title} ${video.label}`)}"><source src="${safe(video.src)}" type="video/mp4"></video><figcaption>▶ ${safe(video.label)}</figcaption></figure>`).join('')}</div></section>`);
+      app.querySelectorAll('.lisa-product-motion figure').forEach(card => {
+        const video = card.querySelector('video');
+        card.addEventListener('mouseenter', () => video.play().catch(() => {}));
+        card.addEventListener('mouseleave', () => { video.pause(); video.currentTime = 0; });
+      });
+    }
     app.querySelectorAll('[data-image]').forEach(button => button.onclick = () => {
       document.querySelector('#mainImage').src = button.dataset.image;
       app.querySelectorAll('[data-image]').forEach(item => item.classList.toggle('active', item === button));
