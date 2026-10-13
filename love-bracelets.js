@@ -1,0 +1,14 @@
+const menuScript=document.createElement('script');
+menuScript.src='catalog-nav.js';
+document.head.append(menuScript);
+const widePaveScrewBracelet={handle:'paved-diamonds-love-bracelet',title:'Wide Pavé Screw Motif Bracelet',image:'https://xcimg.szwego.com/img/f521789a/20251207/i1765042323658_2985_0_1.jpg',price:10400};
+const loveBangleThickMultiStone={handle:'love-bangle-thick-multi-stone',title:'Love Bangle Thick — Multi Stone',image:'assets/love-bangle-thick-multi-stone/yellow-gold.webp',price:9500};
+const flexibleNailBangle={handle:'flexible-nail-bangle',title:'Flexible Nail Bangle',image:'https://xcimg.szwego.com/img/f521789a/20251207/i1765042432438_843_0_2.jpg',price:10400};
+const doubleCharmBracelet={handle:'double-charm-bracelet',title:'Double Charm Bracelet',image:'https://xcimg.szwego.com/20241127/i1732644061_8738_0.jpg',price:9500};
+const boldLinkBracelet={handle:'hardware-u-link-bracelet',title:'Hardware U Link Bracelet',image:'https://xcimg.szwego.com/img/39b0e681/20250620/i1750384184254_3337_0_0.jpg',price:8500};
+const paveLinkBracelet={handle:'pave-hardware-bracelet',title:'Pavé Hardware Bracelet',image:'https://xcimg.szwego.com/img/30293d96/20241127/i1732702746_7014_7.jpg',price:9500};
+const paveTripleLinkBracelet={handle:'hardware-large-link-bracelet',title:'Hardware Large Link Bracelet',image:'https://xcimg.szwego.com/img/30293d96/20250916/i1758016476938_2132_0_0.jpg',price:12500};
+const handles=['love-classic-small-bracelet','elegant-4-diamonds-love-bracelet','classic-10-diamonds-love-bracelet','timeless-medium-love-bracelet','small-10-diamonds-love-bracelet-timeless-luxury','classic-love-bracelet','small-paved-diamonds-love-bracelet-radiant-elegance','small-love-diamonds-paved-bracelet','small-4-diamonds-love-bracelet','love-paved-ceramic-bracelet','love-diamonds-paved-bracelet','love-bracelet-refined-sparkle','love-10-diamonds-small-bracelet'];
+const esc=s=>String(s||'').replace(/[&<>\"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const full=u=>String(u||'').startsWith('//')?`https:${u}`:u;
+Promise.all(handles.map(async handle=>{try{const r=await fetch(`products/${handle}.js`);if(!r.ok)throw Error();const p=await r.json();return{handle,title:p.title,image:full(p.featured_image),price:p.price}}catch{return{handle,title:handle.replaceAll('-',' '),image:'',price:0}}})).then(items=>[loveBangleThickMultiStone,paveTripleLinkBracelet,paveLinkBracelet,boldLinkBracelet,doubleCharmBracelet,flexibleNailBangle,widePaveScrewBracelet,...items]).then(items=>document.querySelector('#grid').innerHTML=items.map(p=>`<a class="card" href="clover-product.html?kind=love-bracelet&handle=${encodeURIComponent(p.handle)}"><figure>${p.image?`<img src="${esc(p.image)}" alt="${esc(p.title)}">`:''}</figure><h2>${esc(p.title)}</h2><p>$${(Number(p.price)/100).toFixed(2)} USD</p></a>`).join(''));

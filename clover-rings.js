@@ -1,0 +1,28 @@
+const menuScript=document.createElement('script');menuScript.src='catalog-nav.js';document.head.append(menuScript);
+const imported={handle:'clover-purple-butterfly-ring',title:'Clover Purple Butterfly Ring',image:'https://xcimg.szwego.com/img/5b0ad70f/20260530/a1780137970946_1660.jpg',price:8200};
+const supplierRings=[
+['clover-mother-of-pearl-pave-double-butterfly-ring','Clover Mother of Pearl & Pavé Double Butterfly Ring','assets/supplier-clean/double-butterfly-ring/01.jpg',9500],
+['clover-white-mother-of-pearl-butterfly-ring','Clover White Mother of Pearl Butterfly Ring','assets/supplier-butterfly/ring/01.jpg',9500],
+['clover-lucky-spring-butterfly-ring','Clover Lucky Spring Butterfly Ring','https://xcimg.szwego.com/img/f0726c9b/20260407/i1775562780468_1976_0_8.jpg'],
+['clover-rose-carnelian-pave-ring','Clover Rose Carnelian Pavé Ring','https://xcimg.szwego.com/imgHD/2d2a1e5b/20250227/cmp_i1740625099431_8859_0_0.jpg'],
+['clover-rose-black-onyx-pave-ring','Clover Rose Black Onyx Pavé Ring','https://xcimg.szwego.com/imgHD/2d2a1e5b/20250227/cmp_i1740625224810_486_0_0.jpg'],
+['clover-mother-of-pearl-ring','Clover Mother of Pearl Ring','https://xcimg.szwego.com/imgHD/2d2a1e5b/20250227/cmp_i1740624409257_3106_0_0.jpg'],
+['clover-rose-mother-of-pearl-ring','Clover Rose Mother of Pearl Ring','https://xcimg.szwego.com/imgHD/2d2a1e5b/20250227/cmp_i1740624477708_6399_0_0.jpg'],
+['clover-rose-carnelian-ring','Clover Rose Carnelian Ring','https://xcimg.szwego.com/imgHD/2d2a1e5b/20250227/cmp_i1740624582389_1518_0_0.jpg'],
+['clover-carnelian-ring','Clover Carnelian Ring','https://xcimg.szwego.com/imgHD/2d2a1e5b/20250227/cmp_i1740624607973_4256_0_0.jpg'],
+['clover-rose-black-onyx-ring','Clover Rose Black Onyx Ring','https://xcimg.szwego.com/imgHD/2d2a1e5b/20250227/cmp_i1740624719276_1940_0_0.jpg'],
+['clover-full-pave-ring','Clover Full Pavé Ring','https://xcimg.szwego.com/imgHD/2d2a1e5b/20250227/cmp_i1740625468810_8793_0_0.jpg'],
+['clover-white-gold-full-pave-ring','Clover White Gold Full Pavé Ring','https://xcimg.szwego.com/imgHD/2d2a1e5b/20250227/cmp_i1740625457595_7060_0_0.jpg'],
+['clover-black-onyx-one-motif-ring','Clover Black Onyx Ring','https://xcimg.szwego.com/img/4d7d140e/20240627/i1719486335_6709_0.jpg']
+,['clover-reversible-silver-guilloche-purple-chalcedony-ring','Clover Reversible Silver Guilloché & Purple Chalcedony Ring','https://xcimg.szwego.com/img/897f5cc1/20251123/i1763905751_901_3.jpg']
+,['clover-reversible-grey-mother-of-pearl-purple-chalcedony-ring','Clover Reversible Grey Mother of Pearl & Purple Chalcedony Ring','https://xcimg.szwego.com/img/897f5cc1/20251123/i1763903434_634_12.jpg']
+,['clover-flowerlace-ring','Clover Flowerlace Ring','https://xcimg.szwego.com/img/96235afc/20251201/i1764606407884_1445_0_0.jpg']
+].map(([handle,title,image,price=8200])=>({handle,title,image,price}));
+const kaleidoscopeProducts=[
+  {handle:'clover-kaleidoscope-white-gold-ring',title:'Clover Kaleidoscope Ring — White Gold',image:'https://xcimg.szwego.com/img/96235afc/20250907/i1757224550737_252_0_1.jpg',video:'assets/kaleidoscope-videos/white-gold.mp4',price:8200},
+  {handle:'clover-kaleidoscope-rose-gold-ring',title:'Clover Kaleidoscope Ring — Rose Gold',image:'https://xcimg.szwego.com/img/96235afc/20250907/i1757224550776_4981_0_2.jpg',video:'assets/kaleidoscope-videos/rose-gold.mp4',price:8200},
+  {handle:'clover-kaleidoscope-yellow-gold-ring',title:'Clover Kaleidoscope Ring — Yellow Gold',image:'https://xcimg.szwego.com/img/96235afc/20250907/i1757224550736_5794_0_3.jpg',video:'assets/kaleidoscope-videos/yellow-gold.mp4',price:8200}
+];
+const cloverRingHandles=['vintage-alhambra-malachite-ring','vintage-white-alhambra-ring','vintage-alhambra-reversible-ring','vintage-alhambra-pearl-ring-1','vintage-alhambra-cz-ring','vintage-alhambra-carnelian-ring','vintage-alhambra-black-onyx-ring','sweet-alhambra-effeuillage-clover-ring','magic-alhambra-clover-ring','lucky-alhambra-inspired-between-the-finger-ring','guilloche-vintage-alhambra-ring','alhambra-clover-ring'];
+const rewrite=t=>t.replace(/^Vintage Alhambra\s*/i,'Clover Ring ');const esc=s=>String(s||'').replace(/[&<>\"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));const full=u=>String(u||'').startsWith('//')?`https:${u}`:u;
+Promise.all(cloverRingHandles.map(async handle=>{try{const r=await fetch(`products/${handle}.js`);if(!r.ok)throw Error();const p=await r.json();return{handle,title:rewrite(p.title),image:full(p.featured_image),price:p.price}}catch{return{handle,title:rewrite(handle.replaceAll('-',' ')),image:'',price:0}}})).then(items=>[...kaleidoscopeProducts,...supplierRings,imported,...items]).then(items=>{const grid=document.querySelector('#grid');grid.innerHTML=items.map(p=>`<a class="card ${p.video?'video-card':''}" href="clover-product.html?kind=clover-ring&handle=${encodeURIComponent(p.handle)}"><figure>${p.image?`<img src="${esc(p.image)}" alt="${esc(p.title)}">`:''}${p.video?`<video muted loop playsinline preload="metadata" poster="${esc(p.image)}"><source src="${esc(p.video)}" type="video/mp4"></video>`:''}</figure><h2>${esc(p.title)}</h2><p>$${(Number(p.price)/100).toFixed(2)} USD</p></a>`).join('');grid.querySelectorAll('.video-card').forEach(card=>{const video=card.querySelector('video');Object.assign(video.style,{position:'absolute',inset:'0',width:'100%',height:'100%',objectFit:'cover',opacity:'0',transition:'opacity .2s'});card.querySelector('figure').style.position='relative';card.addEventListener('mouseenter',()=>{video.play();video.style.opacity='1'});card.addEventListener('mouseleave',()=>{video.pause();video.currentTime=0;video.style.opacity='0'});});});

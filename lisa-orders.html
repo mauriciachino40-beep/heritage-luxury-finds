@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow,noarchive,nosnippet">
+  <title>Lisa Orders — Heritage Luxury Finds</title>
+  <link rel="stylesheet" href="lisa-orders.css?v=20261008-1">
+</head>
+<body>
+  <header><a href="clover-bracelets.html">Heritage <small>LUXURY FINDS</small></a><button id="logout" type="button" hidden>Log out</button></header>
+  <main>
+    <section id="setup" class="panel" hidden><p class="kicker">SETUP REQUIRED</p><h1>Connect Supabase</h1><p>Add the project URL and publishable key to <code>supabase-config.js</code>.</p></section>
+    <section id="login" class="panel" hidden><p class="kicker">PRIVATE ACCESS</p><h1>Lisa Orders</h1><p>Sign in with Lisa’s authorized account.</p><form><label>Email<input type="email" name="email" autocomplete="username" required></label><label>Password<input type="password" name="password" autocomplete="current-password" required></label><button type="submit">SIGN IN</button><p class="error" hidden></p></form></section>
+    <section id="dashboard" hidden><div class="dashboard-head"><div><p class="kicker">ORDER MANAGEMENT</p><h1>Lisa Orders</h1></div><button id="refresh" type="button">Refresh</button></div><div id="orders" class="orders"></div></section>
+  </main>
+  <script src="supabase-config.js?v=20261008-1"></script>
+  <script src="lisa-orders.js?v=20261008-1"></script>
+</body>
+</html>

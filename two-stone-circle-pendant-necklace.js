@@ -1,0 +1,18 @@
+const $ = (s) => document.querySelector(s);
+const $$ = (s) => [...document.querySelectorAll(s)];
+const basePrice = 94;
+let qty = 1;
+const selected = new Set();
+const toast = (message) => { $('#toast').textContent = message; $('#toast').classList.add('show'); setTimeout(() => $('#toast').classList.remove('show'), 2200); };
+$('#plus').onclick = () => { qty += 1; $('#quantity').textContent = qty; };
+$('#minus').onclick = () => { qty = Math.max(1, qty - 1); $('#quantity').textContent = qty; };
+$$('.pill[data-color]').forEach((button) => button.onclick = () => { $$('.pill[data-color]').forEach((p) => p.classList.remove('selected')); button.classList.add('selected'); $('#colorName').textContent = button.dataset.color; });
+$$('.necklace-thumb').forEach((button) => button.onclick = () => { const source = button.dataset.full; $$('.necklace-thumb').forEach((p) => p.classList.remove('selected')); button.classList.add('selected'); $('#necklaceMain').src = source; $('#necklaceMain').alt = button.querySelector('img').alt; });
+const updateSet = () => { const count = selected.size; const extras = $$('.add-set').filter((button) => selected.has(button.dataset.name)).reduce((sum, button) => sum + Number(button.dataset.price), 0); $('#setCount').textContent = `${count} ${count === 1 ? 'item' : 'items'} selected`; $('#setPrice').textContent = `$${basePrice + extras}.00 USD`; $('#setMessage').textContent = count < 2 ? `Add ${2 - count} ${count === 1 ? 'item' : 'items'} to unlock 10% off.` : count === 2 ? '10% discount unlocked — add 1 more item to enjoy 15% off.' : '15% discount unlocked — add 2 more items to enjoy 25% off.'; };
+$$('.add-set').forEach((button) => button.onclick = () => { const name = button.dataset.name; if (selected.has(name)) { selected.delete(name); button.textContent = 'ADD'; button.classList.remove('added'); } else { selected.add(name); button.textContent = 'ADDED'; button.classList.add('added'); } updateSet(); });
+const add = (count, message) => { $('#cartCount').textContent = `(${count})`; toast(message || `${count} item${count > 1 ? 's' : ''} added to cart`); };
+$('#cartCta').onclick = () => add(qty);
+$('#stickyAdd').onclick = () => add(qty);
+$('#allCart').onclick = () => { $$('.add-set').forEach((button) => { selected.add(button.dataset.name); button.textContent = 'ADDED'; button.classList.add('added'); }); updateSet(); add(qty + selected.size, 'Your selected set was added to cart'); };
+window.onscroll = () => $('#stickyProduct').classList.toggle('show', scrollY > 200);
+updateSet();
