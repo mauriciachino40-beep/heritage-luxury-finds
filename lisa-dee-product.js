@@ -3,7 +3,7 @@ const money = value => `$${Number(value).toFixed(2)} USD`;
 const visualMatch = document.createElement('link');
 visualMatch.rel = 'stylesheet'; visualMatch.href = 'rayray-match.css?v=20261014-1'; document.head.append(visualMatch);
 const productMatch = document.createElement('link');
-productMatch.rel = 'stylesheet'; productMatch.href = 'rayray-product-match.css?v=20261014-4'; document.head.append(productMatch);
+productMatch.rel = 'stylesheet'; productMatch.href = 'rayray-product-match.css?v=20261014-5'; document.head.append(productMatch);
 const assistantFont = document.createElement('link');
 assistantFont.rel = 'stylesheet'; assistantFont.href = 'https://fonts.googleapis.com/css2?family=Assistant:wght@400;500;600&display=swap'; document.head.append(assistantFont);
 const menuButton = document.createElement('button');
@@ -96,6 +96,29 @@ fetch('assets/rayray-authorized/catalog.json')
     if (suggestions.length) {
       const recommendationTitle = matching.length ? 'COMPLETE THE SET' : 'BESTSELLERS';
       const recommendationCopy = matching.length ? 'Matching pieces from the same collection, selected to complete your look.' : 'Lisa’s most-loved pieces, selected for easy everyday styling.';
+      const quickPicks = suggestions.slice(0,2);
+      app.querySelector('.lisa-volume-tiers').insertAdjacentHTML('afterend', `<div class="lisa-quick-picks"><h3>${matching.length ? 'ADD A MATCHING PIECE' : 'ADD A BESTSELLER'}</h3>${quickPicks.map(item => `<article data-quick-handle="${safe(item.handle)}"><a href="lisa-dee-product.html?handle=${encodeURIComponent(item.handle)}"><img src="${safe(item.images[0])}" alt="${safe(item.title)}"></a><div><a href="lisa-dee-product.html?handle=${encodeURIComponent(item.handle)}"><b>Lisa Dee ${safe(item.title)}</b></a><span>${money(item.price)}</span></div><button type="button" class="lisa-quick-add">ADD</button></article>`).join('')}</div>`);
+      app.querySelectorAll('.lisa-quick-add').forEach(button => button.onclick = () => {
+        const card = button.closest('[data-quick-handle]');
+        const item = items.find(candidate => candidate.handle === card.dataset.quickHandle);
+        const variant = item?.variants?.find(candidate => candidate.available !== false) || item?.variants?.[0] || {};
+        if (!item) return;
+        const title = `Lisa Dee ${item.title}`;
+        const options = variant.title && variant.title !== 'Default Title' ? [`Selection: ${variant.title}`] : [];
+        const key = `${title}|${options.join('|')}`;
+        let cart = [];
+        try { cart = JSON.parse(localStorage.getItem('lisa-order-draft-v1')) || []; } catch {}
+        const existing = cart.find(cartItem => cartItem.key === key);
+        if (existing) existing.quantity += 1;
+        else cart.push({ title, price:Number(variant.price ?? item.price ?? 0), priceText:money(variant.price ?? item.price), quantity:1, options, sku:String(variant.id || ''), code:'', key });
+        localStorage.setItem('lisa-order-draft-v1', JSON.stringify(cart));
+        const count = cart.reduce((total, cartItem) => total + Number(cartItem.quantity || 0), 0);
+        document.querySelectorAll('.lisa-cart-count').forEach(node => { node.textContent = `(${count})`; });
+        button.textContent = 'ADDED ✓';
+        button.classList.add('added');
+        const note = app.querySelector('.lisa-volume-offer>p');
+        if (note) note.innerHTML = count >= 5 ? '<i>✓</i> 25% discount tier reached — Lisa will confirm it before payment.' : count >= 3 ? '<i>✓</i> 15% discount tier reached — add more to unlock 25%.' : count >= 2 ? '<i>✓</i> 10% discount tier reached — add one more to unlock 15%.' : '<i>✓</i> Added to your Lisa order.';
+      });
       app.insertAdjacentHTML('beforeend', `<section class="lisa-recommendations"><header><p>${matching.length ? 'PAIR IT WITH' : 'LISA’S EDIT'}</p><h2>${recommendationTitle}</h2><span>${recommendationCopy}</span></header><div>${suggestions.map(item => `<a href="lisa-dee-product.html?handle=${encodeURIComponent(item.handle)}"><figure><img src="${safe(item.images[0])}" alt="${safe(item.title)}"><i>${matching.length ? 'MATCHING SET' : 'BESTSELLER'}</i></figure><h3>Lisa Dee ${safe(item.title)}</h3><p>${money(item.price)}</p></a>`).join('')}</div></section>`);
     }
 
