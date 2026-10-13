@@ -7,7 +7,7 @@ productMatch.rel = 'stylesheet'; productMatch.href = 'rayray-product-match.css?v
 const assistantFont = document.createElement('link');
 assistantFont.rel = 'stylesheet'; assistantFont.href = 'https://fonts.googleapis.com/css2?family=Assistant:wght@400;500;600&display=swap'; document.head.append(assistantFont);
 const menuButton = document.createElement('button');
-menuButton.className = 'mobile-menu'; menuButton.type = 'button'; menuButton.setAttribute('aria-label','Browse the collection'); menuButton.onclick = () => location.href = 'lisa-dee-catalog.html'; document.querySelector('.site-header')?.prepend(menuButton);
+menuButton.className = 'mobile-menu'; menuButton.type = 'button'; menuButton.setAttribute('aria-label','Open navigation'); menuButton.setAttribute('aria-expanded','false'); document.querySelector('.site-header')?.prepend(menuButton);
 const app = document.querySelector('#productApp');
 const handle = new URLSearchParams(location.search).get('handle');
 const detailStyle = document.createElement('style');

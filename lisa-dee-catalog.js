@@ -2,7 +2,7 @@ const safe = value => String(value ?? '').replace(/[&<>"']/g, character => ({'&'
 const visualMatch = document.createElement('link');
 visualMatch.rel = 'stylesheet'; visualMatch.href = 'rayray-match.css?v=20261014-1'; document.head.append(visualMatch);
 const menuButton = document.createElement('button');
-menuButton.className = 'mobile-menu'; menuButton.type = 'button'; menuButton.setAttribute('aria-label','Browse the collection'); menuButton.onclick = () => location.href = 'lisa-dee-catalog.html'; document.querySelector('.site-header')?.prepend(menuButton);
+menuButton.className = 'mobile-menu'; menuButton.type = 'button'; menuButton.setAttribute('aria-label','Open navigation'); menuButton.setAttribute('aria-expanded','false'); document.querySelector('.site-header')?.prepend(menuButton);
 const category = product => {
   if (product.category) return product.category;
   const text = `${product.title} ${product.handle}`.toLowerCase();

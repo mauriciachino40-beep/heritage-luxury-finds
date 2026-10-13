@@ -1,0 +1,20 @@
+.lisa-nav-open{overflow:hidden}
+.lisa-nav-overlay{position:fixed;z-index:1000;inset:0;visibility:hidden;pointer-events:none}
+.lisa-nav-overlay.open{visibility:visible;pointer-events:auto}
+.lisa-nav-backdrop{position:absolute;inset:0;border:0;background:#0008;opacity:0;transition:opacity .25s}
+.lisa-nav-overlay.open .lisa-nav-backdrop{opacity:1}
+.lisa-side-nav{position:absolute;inset:0 auto 0 0;width:min(410px,88vw);padding:23px 30px 30px;background:#fff;color:#222;overflow:auto;transform:translateX(-102%);transition:transform .28s ease;box-shadow:12px 0 35px #0002}
+.lisa-nav-overlay.open .lisa-side-nav{transform:translateX(0)}
+.lisa-side-head{display:flex;align-items:center;justify-content:space-between;padding-bottom:22px;border-bottom:1px solid #e1e3eb}
+.lisa-side-logo{height:54px;width:54px;border:1px solid #8e97bc;border-radius:50%;display:flex;flex-direction:column;justify-content:center;align-items:center;background:#101d4d;color:#fff;text-decoration:none;line-height:1}
+.lisa-side-logo em{font:italic 11px Georgia,serif}.lisa-side-logo small{margin-top:3px;font:4px Arial,sans-serif;letter-spacing:.13em}
+.lisa-nav-close{width:42px;height:42px;border:0;background:transparent;color:#101d4d;font:300 34px/1 Arial,sans-serif;cursor:pointer}
+.lisa-side-home,.lisa-side-all{display:block;padding:20px 0;color:#101d4d;text-decoration:none;font:600 11px Assistant,Arial,sans-serif;letter-spacing:.12em}
+.lisa-side-nav section{display:grid;gap:13px;padding:21px 0;border-top:1px solid #e1e3eb}
+.lisa-side-nav section b{margin-bottom:3px;color:#101d4d;font:600 10px Assistant,Arial,sans-serif;letter-spacing:.14em}
+.lisa-side-nav section a{color:#262626;text-decoration:none;font:400 17px/1.35 Assistant,Arial,sans-serif}
+.lisa-side-nav section a:hover{text-decoration:underline;text-underline-offset:4px}
+.lisa-side-all{border-top:1px solid #e1e3eb;border-bottom:1px solid #e1e3eb}
+.lisa-side-nav footer{display:flex;gap:20px;padding:24px 0 0;background:transparent}
+.lisa-side-nav footer a{color:#101d4d;text-decoration:none;font:600 10px Assistant,Arial,sans-serif;letter-spacing:.11em}
+@media(max-width:520px){.lisa-side-nav{padding:19px 23px 28px}.lisa-side-nav section a{font-size:16px}}
