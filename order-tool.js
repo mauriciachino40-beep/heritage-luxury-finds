@@ -94,6 +94,7 @@
     else items.push({ ...product, key });
     saveOrder(items);
     showNotice('Added to your Lisa order');
+    openOrder();
   };
 
   const orderNumber = () => {
