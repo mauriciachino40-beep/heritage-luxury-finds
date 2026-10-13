@@ -3,7 +3,7 @@ const money = value => `$${Number(value).toFixed(2)} USD`;
 const visualMatch = document.createElement('link');
 visualMatch.rel = 'stylesheet'; visualMatch.href = 'rayray-match.css?v=20261014-1'; document.head.append(visualMatch);
 const productMatch = document.createElement('link');
-productMatch.rel = 'stylesheet'; productMatch.href = 'rayray-product-match.css?v=20261014-3'; document.head.append(productMatch);
+productMatch.rel = 'stylesheet'; productMatch.href = 'rayray-product-match.css?v=20261014-4'; document.head.append(productMatch);
 const assistantFont = document.createElement('link');
 assistantFont.rel = 'stylesheet'; assistantFont.href = 'https://fonts.googleapis.com/css2?family=Assistant:wght@400;500;600&display=swap'; document.head.append(assistantFont);
 const menuButton = document.createElement('button');
@@ -23,6 +23,26 @@ const optionLabel = (values, product, index) => {
   if (isSizeGroup(values)) return /ring/i.test(product.title) ? 'Ring Size' : /bracelet|bangle/i.test(product.title) ? 'Bangle Size' : 'Size';
   return index === 0 ? 'Style' : `Option ${index + 1}`;
 };
+const productType = product => {
+  const text = `${product.handle} ${product.title}`.toLowerCase();
+  if (/earring/.test(text)) return 'earrings';
+  if (/ring/.test(text)) return 'ring';
+  if (/necklace|pendant/.test(text)) return 'necklace';
+  if (/bracelet|bangle/.test(text)) return 'bracelet';
+  if (/watch/.test(text)) return 'watch';
+  return 'other';
+};
+const productFamily = product => {
+  const text = `${product.handle} ${product.title} ${product.category}`.toLowerCase();
+  if (/hardware/.test(text)) return 'hardware';
+  if (/knot/.test(text)) return 'knot';
+  if (/nail|clou/.test(text)) return 'nail';
+  if (/\blove\b|screw/.test(text)) return 'love';
+  if (/clover|alhambra/.test(text)) return 'clover';
+  if (/flower|blossom|frivole/.test(text)) return 'floral';
+  return product.category || 'other';
+};
+const recommendationTokens = product => new Set(`${product.handle} ${product.title}`.toLowerCase().split(/[^a-z0-9]+/).filter(token => token.length > 2 && !['the','and','with','edition','bracelet','bangle','ring','necklace','pendant','earring','earrings'].includes(token)));
 
 fetch('assets/rayray-authorized/catalog.json')
   .then(response => response.json())
@@ -60,6 +80,24 @@ fetch('assets/rayray-authorized/catalog.json')
     app.querySelectorAll('[data-image]').forEach(button => button.onclick = () => { document.querySelector('#mainImage').src = button.dataset.image; app.querySelectorAll('[data-image]').forEach(item => item.classList.toggle('active', item === button)); });
     document.querySelector('#minus').onclick = () => { const quantity = document.querySelector('#qty'); quantity.textContent = Math.max(1, Number(quantity.textContent) - 1); };
     document.querySelector('#plus').onclick = () => { const quantity = document.querySelector('#qty'); quantity.textContent = Number(quantity.textContent) + 1; };
+
+    const currentType = productType(product);
+    const currentFamily = productFamily(product);
+    const currentTokens = recommendationTokens(product);
+    const matchingCandidates = items.filter(item => item.handle !== product.handle && productFamily(item) === currentFamily && productType(item) !== currentType && productType(item) !== 'other').sort((a,b) => {
+      const score = item => [...recommendationTokens(item)].filter(token => currentTokens.has(token)).length;
+      return score(b) - score(a);
+    });
+    const typeOrder = ['necklace','ring','earrings','bracelet','watch'].filter(type => type !== currentType);
+    const matching = typeOrder.map(type => matchingCandidates.find(item => productType(item) === type)).filter(Boolean).slice(0,4);
+    const bestSellerHandles = ['classic-love-bracelet','rayray-nail-bangle','rayray-clover-ring-lucky-collection','rayray-lucky-ladybug-bracelet-gold','vintage-alhambra-black-onyx-ring'];
+    const bestSellers = bestSellerHandles.map(bestHandle => items.find(item => item.handle === bestHandle)).filter(item => item && item.handle !== product.handle).slice(0,4);
+    const suggestions = matching.length ? matching : bestSellers;
+    if (suggestions.length) {
+      const recommendationTitle = matching.length ? 'COMPLETE THE SET' : 'BESTSELLERS';
+      const recommendationCopy = matching.length ? 'Matching pieces from the same collection, selected to complete your look.' : 'Lisa’s most-loved pieces, selected for easy everyday styling.';
+      app.insertAdjacentHTML('beforeend', `<section class="lisa-recommendations"><header><p>${matching.length ? 'PAIR IT WITH' : 'LISA’S EDIT'}</p><h2>${recommendationTitle}</h2><span>${recommendationCopy}</span></header><div>${suggestions.map(item => `<a href="lisa-dee-product.html?handle=${encodeURIComponent(item.handle)}"><figure><img src="${safe(item.images[0])}" alt="${safe(item.title)}"><i>${matching.length ? 'MATCHING SET' : 'BESTSELLER'}</i></figure><h3>Lisa Dee ${safe(item.title)}</h3><p>${money(item.price)}</p></a>`).join('')}</div></section>`);
+    }
 
     if (product.videos?.length) {
       app.insertAdjacentHTML('beforeend', `<section class="lisa-product-motion"><h2>SEE IT IN MOTION</h2><p>Hover to play · Tap for controls</p><div>${product.videos.map(video => `<figure class="${safe(video.orientation || 'portrait')}"><video controls muted loop playsinline preload="metadata" poster="${safe(product.images[0])}" aria-label="${safe(`${product.title} ${video.label}`)}"><source src="${safe(video.src)}" type="video/mp4"></video><figcaption>▶ ${safe(video.label)}</figcaption></figure>`).join('')}</div></section>`);
