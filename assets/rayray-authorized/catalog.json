@@ -1,0 +1,2363 @@
+[
+  {
+    "handle": "red-agate-set-gold",
+    "title": "15mm Red Agate Floral Icon Set - 18K Gold Plated",
+    "price": 59,
+    "images": [
+      "assets/rayray-authorized/products/red-agate-set-gold/01.png",
+      "assets/rayray-authorized/products/red-agate-set-gold/02.png",
+      "assets/rayray-authorized/products/red-agate-set-gold/03.png",
+      "assets/rayray-authorized/products/red-agate-set-gold/04.png",
+      "assets/rayray-authorized/products/red-agate-set-gold/05.png",
+      "assets/rayray-authorized/products/red-agate-set-gold/06.png"
+    ],
+    "variants": [
+      {
+        "id": 42104831967307,
+        "title": "💎Best Value💎 Full 4-Piece Set - Ring Size 6",
+        "option1": "💎Best Value💎 Full 4-Piece Set - Ring Size 6",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 188
+      },
+      {
+        "id": 42137718423627,
+        "title": "💎Best Value💎 Full 4-Piece Set - Ring Size 7",
+        "option1": "💎Best Value💎 Full 4-Piece Set - Ring Size 7",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 188
+      },
+      {
+        "id": 42137718456395,
+        "title": "💎Best Value💎 Full 4-Piece Set - Ring Size 8",
+        "option1": "💎Best Value💎 Full 4-Piece Set - Ring Size 8",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 188
+      },
+      {
+        "id": 42104832000075,
+        "title": "✨ Set Savings ✨  Necklace + Bracelet",
+        "option1": "✨ Set Savings ✨  Necklace + Bracelet",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 96
+      },
+      {
+        "id": 42104832032843,
+        "title": "Bracelet Only",
+        "option1": "Bracelet Only",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 59
+      },
+      {
+        "id": 42104832065611,
+        "title": "Necklace Only",
+        "option1": "Necklace Only",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 59
+      },
+      {
+        "id": 42134279225419,
+        "title": "Earrings Only",
+        "option1": "Earrings Only",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 59
+      },
+      {
+        "id": 42104832098379,
+        "title": "Ring Only - Size 6",
+        "option1": "Ring Only - Size 6",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 59
+      },
+      {
+        "id": 42137718489163,
+        "title": "Ring Only - Size 7",
+        "option1": "Ring Only - Size 7",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 59
+      },
+      {
+        "id": 42137718521931,
+        "title": "Ring Only - Size 8",
+        "option1": "Ring Only - Size 8",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 59
+      }
+    ]
+  },
+  {
+    "handle": "rayray-3-stone-love-rings-thick",
+    "title": "3 Stone LOVE Rings (thick)",
+    "price": 42,
+    "images": [
+      "assets/rayray-authorized/products/rayray-3-stone-love-rings-thick/01.png",
+      "assets/rayray-authorized/products/rayray-3-stone-love-rings-thick/02.jpg",
+      "assets/rayray-authorized/products/rayray-3-stone-love-rings-thick/03.jpg"
+    ],
+    "variants": [
+      {
+        "id": 41318055280715,
+        "title": "Gold / 6",
+        "option1": "Gold",
+        "option2": "6",
+        "option3": null,
+        "available": true,
+        "price": 42
+      },
+      {
+        "id": 41318055313483,
+        "title": "Gold / 7",
+        "option1": "Gold",
+        "option2": "7",
+        "option3": null,
+        "available": true,
+        "price": 42
+      },
+      {
+        "id": 41318055346251,
+        "title": "Gold / 8",
+        "option1": "Gold",
+        "option2": "8",
+        "option3": null,
+        "available": true,
+        "price": 42
+      },
+      {
+        "id": 41318055379019,
+        "title": "Gold / 9",
+        "option1": "Gold",
+        "option2": "9",
+        "option3": null,
+        "available": true,
+        "price": 42
+      },
+      {
+        "id": 41318055411787,
+        "title": "Gold / 10",
+        "option1": "Gold",
+        "option2": "10",
+        "option3": null,
+        "available": true,
+        "price": 42
+      },
+      {
+        "id": 41318055444555,
+        "title": "Silver / 6",
+        "option1": "Silver",
+        "option2": "6",
+        "option3": null,
+        "available": true,
+        "price": 42
+      },
+      {
+        "id": 41318055477323,
+        "title": "Silver / 7",
+        "option1": "Silver",
+        "option2": "7",
+        "option3": null,
+        "available": true,
+        "price": 42
+      },
+      {
+        "id": 41318055510091,
+        "title": "Silver / 8",
+        "option1": "Silver",
+        "option2": "8",
+        "option3": null,
+        "available": true,
+        "price": 42
+      },
+      {
+        "id": 41318055542859,
+        "title": "Silver / 9",
+        "option1": "Silver",
+        "option2": "9",
+        "option3": null,
+        "available": true,
+        "price": 42
+      },
+      {
+        "id": 41318055575627,
+        "title": "Silver / 10",
+        "option1": "Silver",
+        "option2": "10",
+        "option3": null,
+        "available": true,
+        "price": 42
+      },
+      {
+        "id": 41318055608395,
+        "title": "Rose Gold / 6",
+        "option1": "Rose Gold",
+        "option2": "6",
+        "option3": null,
+        "available": true,
+        "price": 42
+      },
+      {
+        "id": 41318055641163,
+        "title": "Rose Gold / 7",
+        "option1": "Rose Gold",
+        "option2": "7",
+        "option3": null,
+        "available": true,
+        "price": 42
+      },
+      {
+        "id": 41318055673931,
+        "title": "Rose Gold / 8",
+        "option1": "Rose Gold",
+        "option2": "8",
+        "option3": null,
+        "available": true,
+        "price": 42
+      },
+      {
+        "id": 41318055706699,
+        "title": "Rose Gold / 9",
+        "option1": "Rose Gold",
+        "option2": "9",
+        "option3": null,
+        "available": true,
+        "price": 42
+      },
+      {
+        "id": 41318055739467,
+        "title": "Rose Gold / 10",
+        "option1": "Rose Gold",
+        "option2": "10",
+        "option3": null,
+        "available": true,
+        "price": 42
+      }
+    ]
+  },
+  {
+    "handle": "eliph-artificial-gemstone-necklace",
+    "title": "Artificial Gemstone Necklace",
+    "price": 35,
+    "images": [
+      "assets/rayray-authorized/products/eliph-artificial-gemstone-necklace/01.jpg",
+      "assets/rayray-authorized/products/eliph-artificial-gemstone-necklace/02.jpg",
+      "assets/rayray-authorized/products/eliph-artificial-gemstone-necklace/03.jpg"
+    ],
+    "variants": [
+      {
+        "id": 41183806947403,
+        "title": "Gold",
+        "option1": "Gold",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 35
+      }
+    ]
+  },
+  {
+    "handle": "eliph-black-tricolor-ring-necklace-artificial-gemstone",
+    "title": "Black Tricolor Ring Necklace - Artificial Gemstone",
+    "price": 45,
+    "images": [
+      "assets/rayray-authorized/products/eliph-black-tricolor-ring-necklace-artificial-gemstone/01.jpg",
+      "assets/rayray-authorized/products/eliph-black-tricolor-ring-necklace-artificial-gemstone/02.jpg",
+      "assets/rayray-authorized/products/eliph-black-tricolor-ring-necklace-artificial-gemstone/03.jpg"
+    ],
+    "variants": [
+      {
+        "id": 41185034534987,
+        "title": "Silver",
+        "option1": "Silver",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 45
+      }
+    ]
+  },
+  {
+    "handle": "rayray-blossom-bracelet-rose-gold-复制",
+    "title": "Blossom Bracelet - Gold",
+    "price": 48,
+    "images": [
+      "assets/rayray-authorized/products/rayray-blossom-bracelet-rose-gold-复制/01.jpg"
+    ],
+    "variants": [
+      {
+        "id": 41435131707467,
+        "title": "onyx / 16",
+        "option1": "onyx",
+        "option2": "16",
+        "option3": null,
+        "available": true,
+        "price": 48
+      },
+      {
+        "id": 41435131740235,
+        "title": "onyx / 17",
+        "option1": "onyx",
+        "option2": "17",
+        "option3": null,
+        "available": true,
+        "price": 48
+      },
+      {
+        "id": 41435131773003,
+        "title": "onyx / 18",
+        "option1": "onyx",
+        "option2": "18",
+        "option3": null,
+        "available": true,
+        "price": 48
+      },
+      {
+        "id": 41435131805771,
+        "title": "onyx / 19",
+        "option1": "onyx",
+        "option2": "19",
+        "option3": null,
+        "available": true,
+        "price": 48
+      },
+      {
+        "id": 41435131838539,
+        "title": "onyx / 20",
+        "option1": "onyx",
+        "option2": "20",
+        "option3": null,
+        "available": true,
+        "price": 48
+      }
+    ]
+  },
+  {
+    "handle": "rayray-blossom-bracelet-rose-gold",
+    "title": "Blossom Bracelet - Rose Gold",
+    "price": 48,
+    "images": [
+      "assets/rayray-authorized/products/rayray-blossom-bracelet-rose-gold/01.png",
+      "assets/rayray-authorized/products/rayray-blossom-bracelet-rose-gold/02.jpg"
+    ],
+    "variants": [
+      {
+        "id": 41435119616075,
+        "title": "White Mother-of-Pearl / 16",
+        "option1": "White Mother-of-Pearl",
+        "option2": "16",
+        "option3": null,
+        "available": true,
+        "price": 48
+      },
+      {
+        "id": 41435119648843,
+        "title": "White Mother-of-Pearl / 17",
+        "option1": "White Mother-of-Pearl",
+        "option2": "17",
+        "option3": null,
+        "available": true,
+        "price": 48
+      },
+      {
+        "id": 41435119681611,
+        "title": "White Mother-of-Pearl / 18",
+        "option1": "White Mother-of-Pearl",
+        "option2": "18",
+        "option3": null,
+        "available": true,
+        "price": 48
+      },
+      {
+        "id": 41435119714379,
+        "title": "White Mother-of-Pearl / 19",
+        "option1": "White Mother-of-Pearl",
+        "option2": "19",
+        "option3": null,
+        "available": true,
+        "price": 48
+      },
+      {
+        "id": 41435119747147,
+        "title": "White Mother-of-Pearl / 20",
+        "option1": "White Mother-of-Pearl",
+        "option2": "20",
+        "option3": null,
+        "available": true,
+        "price": 48
+      },
+      {
+        "id": 41435119779915,
+        "title": "Malachite / 16",
+        "option1": "Malachite",
+        "option2": "16",
+        "option3": null,
+        "available": true,
+        "price": 48
+      },
+      {
+        "id": 41435119812683,
+        "title": "Malachite / 17",
+        "option1": "Malachite",
+        "option2": "17",
+        "option3": null,
+        "available": true,
+        "price": 48
+      },
+      {
+        "id": 41435119845451,
+        "title": "Malachite / 18",
+        "option1": "Malachite",
+        "option2": "18",
+        "option3": null,
+        "available": true,
+        "price": 48
+      },
+      {
+        "id": 41435119878219,
+        "title": "Malachite / 19",
+        "option1": "Malachite",
+        "option2": "19",
+        "option3": null,
+        "available": true,
+        "price": 48
+      },
+      {
+        "id": 41435119910987,
+        "title": "Malachite / 20",
+        "option1": "Malachite",
+        "option2": "20",
+        "option3": null,
+        "available": true,
+        "price": 48
+      }
+    ]
+  },
+  {
+    "handle": "rayray-clover-ring-lucky-collection",
+    "title": "Clover Ring - Lucky Collection",
+    "price": 48,
+    "images": [
+      "assets/rayray-authorized/products/rayray-clover-ring-lucky-collection/01.png"
+    ],
+    "variants": [
+      {
+        "id": 41285825953867,
+        "title": "6",
+        "option1": "6",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 48
+      },
+      {
+        "id": 41285825986635,
+        "title": "7",
+        "option1": "7",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 48
+      },
+      {
+        "id": 41285826019403,
+        "title": "8",
+        "option1": "8",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 48
+      },
+      {
+        "id": 41285826052171,
+        "title": "9",
+        "option1": "9",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 48
+      },
+      {
+        "id": 41285826084939,
+        "title": "10",
+        "option1": "10",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 48
+      }
+    ]
+  },
+  {
+    "handle": "rayray-heart-shaped-pendant-beaded-bracelet-silver-复制",
+    "title": "Double-row hinge bracelet",
+    "price": 55,
+    "images": [
+      "assets/rayray-authorized/products/rayray-heart-shaped-pendant-beaded-bracelet-silver-复制/01.jpg"
+    ],
+    "variants": [
+      {
+        "id": 41435061485643,
+        "title": "Gold / 16",
+        "option1": "Gold",
+        "option2": "16",
+        "option3": null,
+        "available": true,
+        "price": 55
+      },
+      {
+        "id": 41435061518411,
+        "title": "Gold / 17",
+        "option1": "Gold",
+        "option2": "17",
+        "option3": null,
+        "available": true,
+        "price": 55
+      },
+      {
+        "id": 41435061551179,
+        "title": "Gold / 18",
+        "option1": "Gold",
+        "option2": "18",
+        "option3": null,
+        "available": true,
+        "price": 55
+      },
+      {
+        "id": 41435061583947,
+        "title": "Gold / 19",
+        "option1": "Gold",
+        "option2": "19",
+        "option3": null,
+        "available": true,
+        "price": 55
+      },
+      {
+        "id": 41435061616715,
+        "title": "Gold / 20",
+        "option1": "Gold",
+        "option2": "20",
+        "option3": null,
+        "available": true,
+        "price": 55
+      }
+    ]
+  },
+  {
+    "handle": "four-leaf-clover-band-for-apple-watch-series-6-7-8-9-10-se",
+    "title": "Four Leaf Clover Band for Apple Watch Series 6/7/8/9/10/SE - GOLD",
+    "price": 45,
+    "images": [
+      "assets/rayray-authorized/products/four-leaf-clover-band-for-apple-watch-series-6-7-8-9-10-se/01.jpg",
+      "assets/rayray-authorized/products/four-leaf-clover-band-for-apple-watch-series-6-7-8-9-10-se/02.jpg",
+      "assets/rayray-authorized/products/four-leaf-clover-band-for-apple-watch-series-6-7-8-9-10-se/03.jpg"
+    ],
+    "variants": [
+      {
+        "id": 41711351496779,
+        "title": "onyx",
+        "option1": "onyx",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 45
+      },
+      {
+        "id": 41711351529547,
+        "title": "White Mother-of-Pearl",
+        "option1": "White Mother-of-Pearl",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 45
+      }
+    ]
+  },
+  {
+    "handle": "four-leaf-clover-band-for-apple-watch-series-6-7-8-9-10-se-rose-gold",
+    "title": "Four Leaf Clover Band for Apple Watch Series 6/7/8/9/10/SE - ROSE GOLD",
+    "price": 45,
+    "images": [
+      "assets/rayray-authorized/products/four-leaf-clover-band-for-apple-watch-series-6-7-8-9-10-se-rose-gold/01.jpg",
+      "assets/rayray-authorized/products/four-leaf-clover-band-for-apple-watch-series-6-7-8-9-10-se-rose-gold/02.jpg",
+      "assets/rayray-authorized/products/four-leaf-clover-band-for-apple-watch-series-6-7-8-9-10-se-rose-gold/03.jpg"
+    ],
+    "variants": [
+      {
+        "id": 41711387738187,
+        "title": "onyx",
+        "option1": "onyx",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 45
+      },
+      {
+        "id": 41711387770955,
+        "title": "White Mother-of-Pearl",
+        "option1": "White Mother-of-Pearl",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 45
+      }
+    ]
+  },
+  {
+    "handle": "four-leaf-clover-band-for-apple-watch-series-6-7-8-9-10-se-silver",
+    "title": "Four Leaf Clover Band for Apple Watch Series 6/7/8/9/10/SE - SILVER",
+    "price": 45,
+    "images": [
+      "assets/rayray-authorized/products/four-leaf-clover-band-for-apple-watch-series-6-7-8-9-10-se-silver/01.jpg",
+      "assets/rayray-authorized/products/four-leaf-clover-band-for-apple-watch-series-6-7-8-9-10-se-silver/02.jpg",
+      "assets/rayray-authorized/products/four-leaf-clover-band-for-apple-watch-series-6-7-8-9-10-se-silver/03.jpg"
+    ],
+    "variants": [
+      {
+        "id": 41711381413963,
+        "title": "onyx",
+        "option1": "onyx",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 45
+      },
+      {
+        "id": 41711381446731,
+        "title": "White Mother-of-Pearl",
+        "option1": "White Mother-of-Pearl",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 45
+      }
+    ]
+  },
+  {
+    "handle": "four-leaf-clover-band-for-apple-watch-series-6-7-8-9-10-se-stone",
+    "title": "Four Leaf Clover Band for Apple Watch Series 6/7/8/9/10/SE - STONE",
+    "price": 45,
+    "images": [
+      "assets/rayray-authorized/products/four-leaf-clover-band-for-apple-watch-series-6-7-8-9-10-se-stone/01.jpg",
+      "assets/rayray-authorized/products/four-leaf-clover-band-for-apple-watch-series-6-7-8-9-10-se-stone/02.jpg",
+      "assets/rayray-authorized/products/four-leaf-clover-band-for-apple-watch-series-6-7-8-9-10-se-stone/03.jpg"
+    ],
+    "variants": [
+      {
+        "id": 41711389179979,
+        "title": "onyx",
+        "option1": "onyx",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 45
+      },
+      {
+        "id": 41711389212747,
+        "title": "White Mother-of-Pearl",
+        "option1": "White Mother-of-Pearl",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 45
+      }
+    ]
+  },
+  {
+    "handle": "rayray-full-stone-nail-ring-rose-gold-1",
+    "title": "Full Stone Nail Ring - Rose Gold",
+    "price": 45,
+    "images": [
+      "assets/rayray-authorized/products/rayray-full-stone-nail-ring-rose-gold-1/01.png"
+    ],
+    "variants": [
+      {
+        "id": 41322666852427,
+        "title": "6",
+        "option1": "6",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 45
+      },
+      {
+        "id": 41322666885195,
+        "title": "7",
+        "option1": "7",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 45
+      },
+      {
+        "id": 41322666917963,
+        "title": "8",
+        "option1": "8",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 45
+      },
+      {
+        "id": 41322666950731,
+        "title": "9",
+        "option1": "9",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 45
+      },
+      {
+        "id": 41322666983499,
+        "title": "10",
+        "option1": "10",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 45
+      }
+    ]
+  },
+  {
+    "handle": "eliph-full-zircon-panthere-necklace",
+    "title": "Full Stone Panthère Necklace",
+    "price": 45,
+    "images": [
+      "assets/rayray-authorized/products/eliph-full-zircon-panthere-necklace/01.jpg",
+      "assets/rayray-authorized/products/eliph-full-zircon-panthere-necklace/02.jpg",
+      "assets/rayray-authorized/products/eliph-full-zircon-panthere-necklace/03.jpg"
+    ],
+    "variants": [
+      {
+        "id": 41185060880459,
+        "title": "Silver",
+        "option1": "Silver",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 45
+      }
+    ]
+  },
+  {
+    "handle": "eliph-tricolor-ring-necklace-full-zircon",
+    "title": "Full Stone Tricolor Ring Necklace",
+    "price": 55,
+    "images": [
+      "assets/rayray-authorized/products/eliph-tricolor-ring-necklace-full-zircon/01.jpg",
+      "assets/rayray-authorized/products/eliph-tricolor-ring-necklace-full-zircon/02.jpg",
+      "assets/rayray-authorized/products/eliph-tricolor-ring-necklace-full-zircon/03.jpg",
+      "assets/rayray-authorized/products/eliph-tricolor-ring-necklace-full-zircon/04.jpg"
+    ],
+    "variants": [
+      {
+        "id": 41183834177611,
+        "title": "Gold, Rose Gold, Sliver",
+        "option1": "Gold, Rose Gold, Sliver",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 55
+      }
+    ]
+  },
+  {
+    "handle": "gold-styling-guide-1",
+    "title": "Gold Styling Guide - 1",
+    "price": 45,
+    "images": [
+      "assets/rayray-authorized/products/gold-styling-guide-1/01.jpg",
+      "assets/rayray-authorized/products/gold-styling-guide-1/02.webp",
+      "assets/rayray-authorized/products/gold-styling-guide-1/03.png",
+      "assets/rayray-authorized/products/gold-styling-guide-1/04.png"
+    ],
+    "variants": [
+      {
+        "id": 41285855772747,
+        "title": "Gold Styling Guide - 1",
+        "option1": "Gold Styling Guide - 1",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 128
+      },
+      {
+        "id": 41285855805515,
+        "title": "clover bracelet 1",
+        "option1": "clover bracelet 1",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 45
+      },
+      {
+        "id": 41285855838283,
+        "title": "clover bracelet 2",
+        "option1": "clover bracelet 2",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 45
+      },
+      {
+        "id": 41285855871051,
+        "title": "Bangle",
+        "option1": "Bangle",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 45
+      }
+    ]
+  },
+  {
+    "handle": "rayray-heart-shaped-pendant-beaded-bracelet",
+    "title": "Heart-shaped pendant beaded bracelet - Gold",
+    "price": 55,
+    "images": [
+      "assets/rayray-authorized/products/rayray-heart-shaped-pendant-beaded-bracelet/01.jpg"
+    ],
+    "variants": [
+      {
+        "id": 41435020918859,
+        "title": "Gold / 16",
+        "option1": "Gold",
+        "option2": "16",
+        "option3": null,
+        "available": true,
+        "price": 55
+      },
+      {
+        "id": 41435020951627,
+        "title": "Gold / 17",
+        "option1": "Gold",
+        "option2": "17",
+        "option3": null,
+        "available": true,
+        "price": 55
+      },
+      {
+        "id": 41435020984395,
+        "title": "Gold / 18",
+        "option1": "Gold",
+        "option2": "18",
+        "option3": null,
+        "available": true,
+        "price": 55
+      },
+      {
+        "id": 41435021017163,
+        "title": "Gold / 19",
+        "option1": "Gold",
+        "option2": "19",
+        "option3": null,
+        "available": true,
+        "price": 55
+      },
+      {
+        "id": 41435021049931,
+        "title": "Gold / 20",
+        "option1": "Gold",
+        "option2": "20",
+        "option3": null,
+        "available": true,
+        "price": 55
+      }
+    ]
+  },
+  {
+    "handle": "rayray-heart-shaped-pendant-beaded-bracelet-silver",
+    "title": "Heart-shaped pendant beaded bracelet - Silver",
+    "price": 55,
+    "images": [
+      "assets/rayray-authorized/products/rayray-heart-shaped-pendant-beaded-bracelet-silver/01.jpg"
+    ],
+    "variants": [
+      {
+        "id": 41435048771659,
+        "title": "Gold / 16",
+        "option1": "Gold",
+        "option2": "16",
+        "option3": null,
+        "available": true,
+        "price": 55
+      },
+      {
+        "id": 41435048804427,
+        "title": "Gold / 17",
+        "option1": "Gold",
+        "option2": "17",
+        "option3": null,
+        "available": true,
+        "price": 55
+      },
+      {
+        "id": 41435048837195,
+        "title": "Gold / 18",
+        "option1": "Gold",
+        "option2": "18",
+        "option3": null,
+        "available": true,
+        "price": 55
+      },
+      {
+        "id": 41435048869963,
+        "title": "Gold / 19",
+        "option1": "Gold",
+        "option2": "19",
+        "option3": null,
+        "available": true,
+        "price": 55
+      },
+      {
+        "id": 41435048902731,
+        "title": "Gold / 20",
+        "option1": "Gold",
+        "option2": "20",
+        "option3": null,
+        "available": true,
+        "price": 55
+      }
+    ]
+  },
+  {
+    "handle": "rayray-love-rings-thick",
+    "title": "LOVE Rings (thick)",
+    "price": 42,
+    "images": [
+      "assets/rayray-authorized/products/rayray-love-rings-thick/01.png",
+      "assets/rayray-authorized/products/rayray-love-rings-thick/02.png",
+      "assets/rayray-authorized/products/rayray-love-rings-thick/03.png"
+    ],
+    "variants": [
+      {
+        "id": 41316555653195,
+        "title": "Gold / 6",
+        "option1": "Gold",
+        "option2": "6",
+        "option3": null,
+        "available": true,
+        "price": 42
+      },
+      {
+        "id": 41316555685963,
+        "title": "Gold / 7",
+        "option1": "Gold",
+        "option2": "7",
+        "option3": null,
+        "available": true,
+        "price": 42
+      },
+      {
+        "id": 41316555718731,
+        "title": "Gold / 8",
+        "option1": "Gold",
+        "option2": "8",
+        "option3": null,
+        "available": true,
+        "price": 42
+      },
+      {
+        "id": 41316555751499,
+        "title": "Gold / 9",
+        "option1": "Gold",
+        "option2": "9",
+        "option3": null,
+        "available": true,
+        "price": 42
+      },
+      {
+        "id": 41316555784267,
+        "title": "Gold / 10",
+        "option1": "Gold",
+        "option2": "10",
+        "option3": null,
+        "available": true,
+        "price": 42
+      },
+      {
+        "id": 41316555817035,
+        "title": "Silver / 6",
+        "option1": "Silver",
+        "option2": "6",
+        "option3": null,
+        "available": true,
+        "price": 42
+      },
+      {
+        "id": 41316555849803,
+        "title": "Silver / 7",
+        "option1": "Silver",
+        "option2": "7",
+        "option3": null,
+        "available": true,
+        "price": 42
+      },
+      {
+        "id": 41316555882571,
+        "title": "Silver / 8",
+        "option1": "Silver",
+        "option2": "8",
+        "option3": null,
+        "available": true,
+        "price": 42
+      },
+      {
+        "id": 41316555915339,
+        "title": "Silver / 9",
+        "option1": "Silver",
+        "option2": "9",
+        "option3": null,
+        "available": true,
+        "price": 42
+      },
+      {
+        "id": 41316555948107,
+        "title": "Silver / 10",
+        "option1": "Silver",
+        "option2": "10",
+        "option3": null,
+        "available": true,
+        "price": 42
+      },
+      {
+        "id": 41316555980875,
+        "title": "Rose Gold / 6",
+        "option1": "Rose Gold",
+        "option2": "6",
+        "option3": null,
+        "available": true,
+        "price": 42
+      },
+      {
+        "id": 41316556013643,
+        "title": "Rose Gold / 7",
+        "option1": "Rose Gold",
+        "option2": "7",
+        "option3": null,
+        "available": true,
+        "price": 42
+      },
+      {
+        "id": 41316556046411,
+        "title": "Rose Gold / 8",
+        "option1": "Rose Gold",
+        "option2": "8",
+        "option3": null,
+        "available": true,
+        "price": 42
+      },
+      {
+        "id": 41316556079179,
+        "title": "Rose Gold / 9",
+        "option1": "Rose Gold",
+        "option2": "9",
+        "option3": null,
+        "available": true,
+        "price": 42
+      },
+      {
+        "id": 41316556111947,
+        "title": "Rose Gold / 10",
+        "option1": "Rose Gold",
+        "option2": "10",
+        "option3": null,
+        "available": true,
+        "price": 42
+      }
+    ]
+  },
+  {
+    "handle": "rayray-large-clasp-bracelet-rose-gold-复制",
+    "title": "Large clasp bracelet - Gold",
+    "price": 55,
+    "images": [
+      "assets/rayray-authorized/products/rayray-large-clasp-bracelet-rose-gold-复制/01.jpg"
+    ],
+    "variants": [
+      {
+        "id": 41435101102155,
+        "title": "Gold / 16",
+        "option1": "Gold",
+        "option2": "16",
+        "option3": null,
+        "available": true,
+        "price": 55
+      },
+      {
+        "id": 41435101134923,
+        "title": "Gold / 17",
+        "option1": "Gold",
+        "option2": "17",
+        "option3": null,
+        "available": true,
+        "price": 55
+      },
+      {
+        "id": 41435101167691,
+        "title": "Gold / 18",
+        "option1": "Gold",
+        "option2": "18",
+        "option3": null,
+        "available": true,
+        "price": 55
+      },
+      {
+        "id": 41435101200459,
+        "title": "Gold / 19",
+        "option1": "Gold",
+        "option2": "19",
+        "option3": null,
+        "available": true,
+        "price": 55
+      },
+      {
+        "id": 41435101233227,
+        "title": "Gold / 20",
+        "option1": "Gold",
+        "option2": "20",
+        "option3": null,
+        "available": true,
+        "price": 55
+      }
+    ]
+  },
+  {
+    "handle": "rayray-large-clasp-bracelet-silver-复制",
+    "title": "Large clasp bracelet - Rose Gold",
+    "price": 55,
+    "images": [
+      "assets/rayray-authorized/products/rayray-large-clasp-bracelet-silver-复制/01.jpg"
+    ],
+    "variants": [
+      {
+        "id": 41435098513483,
+        "title": "Rose Gold / 16",
+        "option1": "Rose Gold",
+        "option2": "16",
+        "option3": null,
+        "available": true,
+        "price": 55
+      },
+      {
+        "id": 41435098546251,
+        "title": "Rose Gold / 17",
+        "option1": "Rose Gold",
+        "option2": "17",
+        "option3": null,
+        "available": true,
+        "price": 55
+      },
+      {
+        "id": 41435098579019,
+        "title": "Rose Gold / 18",
+        "option1": "Rose Gold",
+        "option2": "18",
+        "option3": null,
+        "available": true,
+        "price": 55
+      },
+      {
+        "id": 41435098611787,
+        "title": "Rose Gold / 19",
+        "option1": "Rose Gold",
+        "option2": "19",
+        "option3": null,
+        "available": true,
+        "price": 55
+      },
+      {
+        "id": 41435098644555,
+        "title": "Rose Gold / 20",
+        "option1": "Rose Gold",
+        "option2": "20",
+        "option3": null,
+        "available": true,
+        "price": 55
+      }
+    ]
+  },
+  {
+    "handle": "rayray-large-clasp-bracelet-with-stone-rose-gold-复制",
+    "title": "Large clasp bracelet - Silver",
+    "price": 55,
+    "images": [
+      "assets/rayray-authorized/products/rayray-large-clasp-bracelet-with-stone-rose-gold-复制/01.jpg"
+    ],
+    "variants": [
+      {
+        "id": 41435085537355,
+        "title": "Silver / 16",
+        "option1": "Silver",
+        "option2": "16",
+        "option3": null,
+        "available": true,
+        "price": 55
+      },
+      {
+        "id": 41435085570123,
+        "title": "Silver / 17",
+        "option1": "Silver",
+        "option2": "17",
+        "option3": null,
+        "available": true,
+        "price": 55
+      },
+      {
+        "id": 41435085602891,
+        "title": "Silver / 18",
+        "option1": "Silver",
+        "option2": "18",
+        "option3": null,
+        "available": true,
+        "price": 55
+      },
+      {
+        "id": 41435085635659,
+        "title": "Silver / 19",
+        "option1": "Silver",
+        "option2": "19",
+        "option3": null,
+        "available": true,
+        "price": 55
+      },
+      {
+        "id": 41435085668427,
+        "title": "Silver / 20",
+        "option1": "Silver",
+        "option2": "20",
+        "option3": null,
+        "available": true,
+        "price": 55
+      }
+    ]
+  },
+  {
+    "handle": "rayray-double-row-hinge-bracelet-复制",
+    "title": "Large clasp bracelet with stone - Rose Gold",
+    "price": 55,
+    "images": [
+      "assets/rayray-authorized/products/rayray-double-row-hinge-bracelet-复制/01.jpg"
+    ],
+    "variants": [
+      {
+        "id": 41435077902411,
+        "title": "Rose Gold / 16",
+        "option1": "Rose Gold",
+        "option2": "16",
+        "option3": null,
+        "available": true,
+        "price": 55
+      },
+      {
+        "id": 41435077935179,
+        "title": "Rose Gold / 17",
+        "option1": "Rose Gold",
+        "option2": "17",
+        "option3": null,
+        "available": true,
+        "price": 55
+      },
+      {
+        "id": 41435077967947,
+        "title": "Rose Gold / 18",
+        "option1": "Rose Gold",
+        "option2": "18",
+        "option3": null,
+        "available": true,
+        "price": 55
+      },
+      {
+        "id": 41435078000715,
+        "title": "Rose Gold / 19",
+        "option1": "Rose Gold",
+        "option2": "19",
+        "option3": null,
+        "available": true,
+        "price": 55
+      },
+      {
+        "id": 41435078033483,
+        "title": "Rose Gold / 20",
+        "option1": "Rose Gold",
+        "option2": "20",
+        "option3": null,
+        "available": true,
+        "price": 55
+      }
+    ]
+  },
+  {
+    "handle": "rayray-lucky-bracelet-plum-blossom",
+    "title": "Lucky Bracelet - Plum Blossom",
+    "price": 45,
+    "images": [
+      "assets/rayray-authorized/products/rayray-lucky-bracelet-plum-blossom/01.jpg",
+      "assets/rayray-authorized/products/rayray-lucky-bracelet-plum-blossom/02.png",
+      "assets/rayray-authorized/products/rayray-lucky-bracelet-plum-blossom/03.png"
+    ],
+    "variants": [
+      {
+        "id": 41320806252619,
+        "title": "rose gold",
+        "option1": "rose gold",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 45
+      },
+      {
+        "id": 41320806187083,
+        "title": "gold",
+        "option1": "gold",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 45
+      },
+      {
+        "id": 41320806219851,
+        "title": "silver",
+        "option1": "silver",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 45
+      }
+    ]
+  },
+  {
+    "handle": "rayray-lucky-bracelet-ladybug02",
+    "title": "Lucky Bracelet - ladybug",
+    "price": 45,
+    "images": [
+      "assets/rayray-authorized/products/rayray-lucky-bracelet-ladybug02/01.png",
+      "assets/rayray-authorized/products/rayray-lucky-bracelet-ladybug02/02.png",
+      "assets/rayray-authorized/products/rayray-lucky-bracelet-ladybug02/03.png"
+    ],
+    "variants": [
+      {
+        "id": 41318056460363,
+        "title": "gold",
+        "option1": "gold",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 45
+      },
+      {
+        "id": 41318056493131,
+        "title": "silver",
+        "option1": "silver",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 45
+      },
+      {
+        "id": 41318056525899,
+        "title": "rose gold",
+        "option1": "rose gold",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 45
+      }
+    ]
+  },
+  {
+    "handle": "rayray-clover-bracelet-lucky-collection",
+    "title": "Lucky Bracelet - ladybug with open wings",
+    "price": 48,
+    "images": [
+      "assets/rayray-authorized/products/rayray-clover-bracelet-lucky-collection/01.png"
+    ],
+    "variants": [
+      {
+        "id": 41285826740299,
+        "title": "Default Title",
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 48
+      }
+    ]
+  },
+  {
+    "handle": "rayray-lucky-ladybug-bracelet-gold",
+    "title": "Lucky Ladybug Bracelet - Gold",
+    "price": 48,
+    "images": [
+      "assets/rayray-authorized/products/rayray-lucky-ladybug-bracelet-gold/01.png"
+    ],
+    "variants": [
+      {
+        "id": 41319545176139,
+        "title": "Default Title",
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 48
+      }
+    ]
+  },
+  {
+    "handle": "rayray-lucky-bracelet-clover-ladybug",
+    "title": "Lucky Ladybug Bracelet - Rose Gold",
+    "price": 48,
+    "images": [
+      "assets/rayray-authorized/products/rayray-lucky-bracelet-clover-ladybug/01.png"
+    ],
+    "variants": [
+      {
+        "id": 41285827559499,
+        "title": "Default Title",
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 48
+      }
+    ]
+  },
+  {
+    "handle": "rayray-lucky-ladybug-bracelet-silver",
+    "title": "Lucky Ladybug Bracelet - Silver",
+    "price": 48,
+    "images": [
+      "assets/rayray-authorized/products/rayray-lucky-ladybug-bracelet-silver/01.png"
+    ],
+    "variants": [
+      {
+        "id": 41319545471051,
+        "title": "Default Title",
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 48
+      }
+    ]
+  },
+  {
+    "handle": "rayray-lucky-necklace-ladybug",
+    "title": "Lucky Necklace - Ladybug",
+    "price": 48,
+    "images": [
+      "assets/rayray-authorized/products/rayray-lucky-necklace-ladybug/01.png"
+    ],
+    "variants": [
+      {
+        "id": 41285828837451,
+        "title": "Default Title",
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 48
+      }
+    ]
+  },
+  {
+    "handle": "rayray-nail-bangle",
+    "title": "Nail Bangle (thick)",
+    "price": 45,
+    "images": [
+      "assets/rayray-authorized/products/rayray-nail-bangle/01.jpg",
+      "assets/rayray-authorized/products/rayray-nail-bangle/02.jpg"
+    ],
+    "variants": [
+      {
+        "id": 41316518953035,
+        "title": "silver / 17",
+        "option1": "silver",
+        "option2": "17",
+        "option3": null,
+        "available": true,
+        "price": 45
+      },
+      {
+        "id": 41316518985803,
+        "title": "silver / 19",
+        "option1": "silver",
+        "option2": "19",
+        "option3": null,
+        "available": true,
+        "price": 45
+      },
+      {
+        "id": 41316519018571,
+        "title": "gold / 17",
+        "option1": "gold",
+        "option2": "17",
+        "option3": null,
+        "available": true,
+        "price": 45
+      },
+      {
+        "id": 41316519051339,
+        "title": "gold / 19",
+        "option1": "gold",
+        "option2": "19",
+        "option3": null,
+        "available": true,
+        "price": 45
+      }
+    ]
+  },
+  {
+    "handle": "rayray-nail-bangle-thin",
+    "title": "Nail Bangle (thin)",
+    "price": 45,
+    "images": [
+      "assets/rayray-authorized/products/rayray-nail-bangle-thin/01.jpg",
+      "assets/rayray-authorized/products/rayray-nail-bangle-thin/02.jpg"
+    ],
+    "variants": [
+      {
+        "id": 41316511121483,
+        "title": "silver / 17",
+        "option1": "silver",
+        "option2": "17",
+        "option3": null,
+        "available": true,
+        "price": 45
+      },
+      {
+        "id": 41316511154251,
+        "title": "silver / 19",
+        "option1": "silver",
+        "option2": "19",
+        "option3": null,
+        "available": true,
+        "price": 45
+      },
+      {
+        "id": 41316514660427,
+        "title": "gold / 17",
+        "option1": "gold",
+        "option2": "17",
+        "option3": null,
+        "available": true,
+        "price": 45
+      },
+      {
+        "id": 41316514693195,
+        "title": "gold / 19",
+        "option1": "gold",
+        "option2": "19",
+        "option3": null,
+        "available": true,
+        "price": 45
+      }
+    ]
+  },
+  {
+    "handle": "rayray-love-bangle-thin",
+    "title": "Screw Motif Bangle (thin)",
+    "price": 48,
+    "images": [
+      "assets/rayray-authorized/products/rayray-love-bangle-thin/01.jpg",
+      "assets/rayray-authorized/products/rayray-love-bangle-thin/02.jpg",
+      "assets/rayray-authorized/products/rayray-love-bangle-thin/03.jpg"
+    ],
+    "variants": [
+      {
+        "id": 41316535959627,
+        "title": "Gold / 16",
+        "option1": "Gold",
+        "option2": "16",
+        "option3": null,
+        "available": true,
+        "price": 48
+      },
+      {
+        "id": 41316535992395,
+        "title": "Gold / 17",
+        "option1": "Gold",
+        "option2": "17",
+        "option3": null,
+        "available": true,
+        "price": 48
+      },
+      {
+        "id": 41316536025163,
+        "title": "Gold / 18",
+        "option1": "Gold",
+        "option2": "18",
+        "option3": null,
+        "available": true,
+        "price": 48
+      },
+      {
+        "id": 41316536057931,
+        "title": "Gold / 19",
+        "option1": "Gold",
+        "option2": "19",
+        "option3": null,
+        "available": true,
+        "price": 48
+      },
+      {
+        "id": 41316536090699,
+        "title": "Gold / 20",
+        "option1": "Gold",
+        "option2": "20",
+        "option3": null,
+        "available": true,
+        "price": 48
+      },
+      {
+        "id": 41316536123467,
+        "title": "Silver / 16",
+        "option1": "Silver",
+        "option2": "16",
+        "option3": null,
+        "available": true,
+        "price": 48
+      },
+      {
+        "id": 41316536156235,
+        "title": "Silver / 17",
+        "option1": "Silver",
+        "option2": "17",
+        "option3": null,
+        "available": true,
+        "price": 48
+      },
+      {
+        "id": 41316536189003,
+        "title": "Silver / 18",
+        "option1": "Silver",
+        "option2": "18",
+        "option3": null,
+        "available": true,
+        "price": 48
+      },
+      {
+        "id": 41316536221771,
+        "title": "Silver / 19",
+        "option1": "Silver",
+        "option2": "19",
+        "option3": null,
+        "available": true,
+        "price": 48
+      },
+      {
+        "id": 41316536254539,
+        "title": "Silver / 20",
+        "option1": "Silver",
+        "option2": "20",
+        "option3": null,
+        "available": true,
+        "price": 48
+      },
+      {
+        "id": 41316536287307,
+        "title": "Rose Gold / 16",
+        "option1": "Rose Gold",
+        "option2": "16",
+        "option3": null,
+        "available": true,
+        "price": 48
+      },
+      {
+        "id": 41316536320075,
+        "title": "Rose Gold / 17",
+        "option1": "Rose Gold",
+        "option2": "17",
+        "option3": null,
+        "available": true,
+        "price": 48
+      },
+      {
+        "id": 41316536352843,
+        "title": "Rose Gold / 18",
+        "option1": "Rose Gold",
+        "option2": "18",
+        "option3": null,
+        "available": true,
+        "price": 48
+      },
+      {
+        "id": 41316536385611,
+        "title": "Rose Gold / 19",
+        "option1": "Rose Gold",
+        "option2": "19",
+        "option3": null,
+        "available": true,
+        "price": 48
+      },
+      {
+        "id": 41316536418379,
+        "title": "Rose Gold / 20",
+        "option1": "Rose Gold",
+        "option2": "20",
+        "option3": null,
+        "available": true,
+        "price": 48
+      }
+    ]
+  },
+  {
+    "handle": "rayray-love-bangle-thick",
+    "title": "Screw Motif Bangle Thick Edition (6mm)",
+    "price": 48,
+    "images": [
+      "assets/rayray-authorized/products/rayray-love-bangle-thick/01.jpg",
+      "assets/rayray-authorized/products/rayray-love-bangle-thick/02.jpg",
+      "assets/rayray-authorized/products/rayray-love-bangle-thick/03.jpg",
+      "assets/rayray-authorized/products/rayray-love-bangle-thick/04.png",
+      "assets/rayray-authorized/products/rayray-love-bangle-thick/05.png",
+      "assets/rayray-authorized/products/rayray-love-bangle-thick/06.png"
+    ],
+    "variants": [
+      {
+        "id": 41316547690571,
+        "title": "Gold / No Stone / 16",
+        "option1": "Gold",
+        "option2": "No Stone",
+        "option3": "16",
+        "available": true,
+        "price": 48
+      },
+      {
+        "id": 41316547723339,
+        "title": "Gold / No Stone / 17",
+        "option1": "Gold",
+        "option2": "No Stone",
+        "option3": "17",
+        "available": true,
+        "price": 48
+      },
+      {
+        "id": 41316547756107,
+        "title": "Gold / No Stone / 18",
+        "option1": "Gold",
+        "option2": "No Stone",
+        "option3": "18",
+        "available": true,
+        "price": 48
+      },
+      {
+        "id": 41316547788875,
+        "title": "Gold / No Stone / 19",
+        "option1": "Gold",
+        "option2": "No Stone",
+        "option3": "19",
+        "available": true,
+        "price": 48
+      },
+      {
+        "id": 42137754435659,
+        "title": "Gold / 4 Stones / 16",
+        "option1": "Gold",
+        "option2": "4 Stones",
+        "option3": "16",
+        "available": false,
+        "price": 48
+      },
+      {
+        "id": 42137754501195,
+        "title": "Gold / 4 Stones / 17",
+        "option1": "Gold",
+        "option2": "4 Stones",
+        "option3": "17",
+        "available": false,
+        "price": 48
+      },
+      {
+        "id": 42137754566731,
+        "title": "Gold / 4 Stones / 18",
+        "option1": "Gold",
+        "option2": "4 Stones",
+        "option3": "18",
+        "available": false,
+        "price": 48
+      },
+      {
+        "id": 42137754632267,
+        "title": "Gold / 4 Stones / 19",
+        "option1": "Gold",
+        "option2": "4 Stones",
+        "option3": "19",
+        "available": false,
+        "price": 48
+      },
+      {
+        "id": 42137754468427,
+        "title": "Gold / 10 Stones / 16",
+        "option1": "Gold",
+        "option2": "10 Stones",
+        "option3": "16",
+        "available": false,
+        "price": 48
+      },
+      {
+        "id": 42137754533963,
+        "title": "Gold / 10 Stones / 17",
+        "option1": "Gold",
+        "option2": "10 Stones",
+        "option3": "17",
+        "available": false,
+        "price": 48
+      },
+      {
+        "id": 42137754599499,
+        "title": "Gold / 10 Stones / 18",
+        "option1": "Gold",
+        "option2": "10 Stones",
+        "option3": "18",
+        "available": false,
+        "price": 48
+      },
+      {
+        "id": 42137754665035,
+        "title": "Gold / 10 Stones / 19",
+        "option1": "Gold",
+        "option2": "10 Stones",
+        "option3": "19",
+        "available": false,
+        "price": 48
+      },
+      {
+        "id": 41316547854411,
+        "title": "Silver / No Stone / 16",
+        "option1": "Silver",
+        "option2": "No Stone",
+        "option3": "16",
+        "available": true,
+        "price": 48
+      },
+      {
+        "id": 41316547887179,
+        "title": "Silver / No Stone / 17",
+        "option1": "Silver",
+        "option2": "No Stone",
+        "option3": "17",
+        "available": true,
+        "price": 48
+      },
+      {
+        "id": 41316547919947,
+        "title": "Silver / No Stone / 18",
+        "option1": "Silver",
+        "option2": "No Stone",
+        "option3": "18",
+        "available": true,
+        "price": 48
+      },
+      {
+        "id": 41316547952715,
+        "title": "Silver / No Stone / 19",
+        "option1": "Silver",
+        "option2": "No Stone",
+        "option3": "19",
+        "available": true,
+        "price": 48
+      },
+      {
+        "id": 42137754763339,
+        "title": "Silver / 4 Stones / 16",
+        "option1": "Silver",
+        "option2": "4 Stones",
+        "option3": "16",
+        "available": false,
+        "price": 48
+      },
+      {
+        "id": 42137754828875,
+        "title": "Silver / 4 Stones / 17",
+        "option1": "Silver",
+        "option2": "4 Stones",
+        "option3": "17",
+        "available": false,
+        "price": 48
+      },
+      {
+        "id": 42137754894411,
+        "title": "Silver / 4 Stones / 18",
+        "option1": "Silver",
+        "option2": "4 Stones",
+        "option3": "18",
+        "available": false,
+        "price": 48
+      },
+      {
+        "id": 42137754959947,
+        "title": "Silver / 4 Stones / 19",
+        "option1": "Silver",
+        "option2": "4 Stones",
+        "option3": "19",
+        "available": false,
+        "price": 48
+      },
+      {
+        "id": 42137754796107,
+        "title": "Silver / 10 Stones / 16",
+        "option1": "Silver",
+        "option2": "10 Stones",
+        "option3": "16",
+        "available": false,
+        "price": 48
+      },
+      {
+        "id": 42137754861643,
+        "title": "Silver / 10 Stones / 17",
+        "option1": "Silver",
+        "option2": "10 Stones",
+        "option3": "17",
+        "available": false,
+        "price": 48
+      },
+      {
+        "id": 42137754927179,
+        "title": "Silver / 10 Stones / 18",
+        "option1": "Silver",
+        "option2": "10 Stones",
+        "option3": "18",
+        "available": false,
+        "price": 48
+      },
+      {
+        "id": 42137754992715,
+        "title": "Silver / 10 Stones / 19",
+        "option1": "Silver",
+        "option2": "10 Stones",
+        "option3": "19",
+        "available": false,
+        "price": 48
+      },
+      {
+        "id": 41316548018251,
+        "title": "Rose Gold / No Stone / 16",
+        "option1": "Rose Gold",
+        "option2": "No Stone",
+        "option3": "16",
+        "available": true,
+        "price": 48
+      },
+      {
+        "id": 41316548051019,
+        "title": "Rose Gold / No Stone / 17",
+        "option1": "Rose Gold",
+        "option2": "No Stone",
+        "option3": "17",
+        "available": true,
+        "price": 48
+      },
+      {
+        "id": 41316548083787,
+        "title": "Rose Gold / No Stone / 18",
+        "option1": "Rose Gold",
+        "option2": "No Stone",
+        "option3": "18",
+        "available": true,
+        "price": 48
+      },
+      {
+        "id": 41316548116555,
+        "title": "Rose Gold / No Stone / 19",
+        "option1": "Rose Gold",
+        "option2": "No Stone",
+        "option3": "19",
+        "available": true,
+        "price": 48
+      },
+      {
+        "id": 42137755091019,
+        "title": "Rose Gold / 4 Stones / 16",
+        "option1": "Rose Gold",
+        "option2": "4 Stones",
+        "option3": "16",
+        "available": false,
+        "price": 48
+      },
+      {
+        "id": 42137755156555,
+        "title": "Rose Gold / 4 Stones / 17",
+        "option1": "Rose Gold",
+        "option2": "4 Stones",
+        "option3": "17",
+        "available": false,
+        "price": 48
+      },
+      {
+        "id": 42137755222091,
+        "title": "Rose Gold / 4 Stones / 18",
+        "option1": "Rose Gold",
+        "option2": "4 Stones",
+        "option3": "18",
+        "available": false,
+        "price": 48
+      },
+      {
+        "id": 42137755287627,
+        "title": "Rose Gold / 4 Stones / 19",
+        "option1": "Rose Gold",
+        "option2": "4 Stones",
+        "option3": "19",
+        "available": false,
+        "price": 48
+      },
+      {
+        "id": 42137755123787,
+        "title": "Rose Gold / 10 Stones / 16",
+        "option1": "Rose Gold",
+        "option2": "10 Stones",
+        "option3": "16",
+        "available": false,
+        "price": 48
+      },
+      {
+        "id": 42137755189323,
+        "title": "Rose Gold / 10 Stones / 17",
+        "option1": "Rose Gold",
+        "option2": "10 Stones",
+        "option3": "17",
+        "available": false,
+        "price": 48
+      },
+      {
+        "id": 42137755254859,
+        "title": "Rose Gold / 10 Stones / 18",
+        "option1": "Rose Gold",
+        "option2": "10 Stones",
+        "option3": "18",
+        "available": false,
+        "price": 48
+      },
+      {
+        "id": 42137755320395,
+        "title": "Rose Gold / 10 Stones / 19",
+        "option1": "Rose Gold",
+        "option2": "10 Stones",
+        "option3": "19",
+        "available": false,
+        "price": 48
+      }
+    ]
+  },
+  {
+    "handle": "rayray-stone-nail-ring-gold",
+    "title": "Stone Nail Ring - Gold",
+    "price": 45,
+    "images": [
+      "assets/rayray-authorized/products/rayray-stone-nail-ring-gold/01.png"
+    ],
+    "variants": [
+      {
+        "id": 41322658824267,
+        "title": "6",
+        "option1": "6",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 45
+      },
+      {
+        "id": 41322663280715,
+        "title": "7",
+        "option1": "7",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 45
+      },
+      {
+        "id": 41322663313483,
+        "title": "8",
+        "option1": "8",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 45
+      },
+      {
+        "id": 41322663346251,
+        "title": "9",
+        "option1": "9",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 45
+      },
+      {
+        "id": 41322663379019,
+        "title": "10",
+        "option1": "10",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 45
+      }
+    ]
+  },
+  {
+    "handle": "rayray-stone-nail-ring-rose-gold",
+    "title": "Stone Nail Ring - Rose Gold",
+    "price": 45,
+    "images": [
+      "assets/rayray-authorized/products/rayray-stone-nail-ring-rose-gold/01.png"
+    ],
+    "variants": [
+      {
+        "id": 41322664525899,
+        "title": "6",
+        "option1": "6",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 45
+      },
+      {
+        "id": 41322664558667,
+        "title": "7",
+        "option1": "7",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 45
+      },
+      {
+        "id": 41322664591435,
+        "title": "8",
+        "option1": "8",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 45
+      },
+      {
+        "id": 41322664624203,
+        "title": "9",
+        "option1": "9",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 45
+      },
+      {
+        "id": 41322664656971,
+        "title": "10",
+        "option1": "10",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 45
+      }
+    ]
+  },
+  {
+    "handle": "rayray-stone-nail-ring-silver",
+    "title": "Stone Nail Ring - Silver",
+    "price": 45,
+    "images": [
+      "assets/rayray-authorized/products/rayray-stone-nail-ring-silver/01.png"
+    ],
+    "variants": [
+      {
+        "id": 41322663411787,
+        "title": "6",
+        "option1": "6",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 45
+      },
+      {
+        "id": 41322663444555,
+        "title": "7",
+        "option1": "7",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 45
+      },
+      {
+        "id": 41322663477323,
+        "title": "8",
+        "option1": "8",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 45
+      },
+      {
+        "id": 41322663510091,
+        "title": "9",
+        "option1": "9",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 45
+      },
+      {
+        "id": 41322663542859,
+        "title": "10",
+        "option1": "10",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 45
+      }
+    ]
+  },
+  {
+    "handle": "the-tenessee-set-silver",
+    "title": "The Blackonyx Set -Gold",
+    "price": 49,
+    "images": [
+      "assets/rayray-authorized/products/the-tenessee-set-silver/01.webp",
+      "assets/rayray-authorized/products/the-tenessee-set-silver/02.webp",
+      "assets/rayray-authorized/products/the-tenessee-set-silver/03.webp",
+      "assets/rayray-authorized/products/the-tenessee-set-silver/04.jpg",
+      "assets/rayray-authorized/products/the-tenessee-set-silver/05.jpg"
+    ],
+    "variants": [
+      {
+        "id": 41340806234187,
+        "title": "The Pendant Set",
+        "option1": "The Pendant Set",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 99
+      },
+      {
+        "id": 41340806266955,
+        "title": "Bracelet",
+        "option1": "Bracelet",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 49
+      },
+      {
+        "id": 41340806299723,
+        "title": "Earrings",
+        "option1": "Earrings",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 49
+      },
+      {
+        "id": 41340806332491,
+        "title": "Necklace",
+        "option1": "Necklace",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 49
+      },
+      {
+        "id": 41340806365259,
+        "title": "ring",
+        "option1": "ring",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 49
+      }
+    ]
+  },
+  {
+    "handle": "the-grey-set",
+    "title": "The Grey Set",
+    "price": 35,
+    "images": [
+      "assets/rayray-authorized/products/the-grey-set/01.jpg",
+      "assets/rayray-authorized/products/the-grey-set/02.jpg",
+      "assets/rayray-authorized/products/the-grey-set/03.jpg",
+      "assets/rayray-authorized/products/the-grey-set/04.jpg",
+      "assets/rayray-authorized/products/the-grey-set/05.jpg"
+    ],
+    "variants": [
+      {
+        "id": 41283358261323,
+        "title": "The Red Set",
+        "option1": "The Red Set",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 99
+      },
+      {
+        "id": 41283358294091,
+        "title": "Bracelet",
+        "option1": "Bracelet",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 35
+      },
+      {
+        "id": 41283358359627,
+        "title": "Necklace",
+        "option1": "Necklace",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 35
+      },
+      {
+        "id": 41283358326859,
+        "title": "Earrings",
+        "option1": "Earrings",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 35
+      },
+      {
+        "id": 41285797052491,
+        "title": "ring",
+        "option1": "ring",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 99
+      }
+    ]
+  },
+  {
+    "handle": "eliph-tricolor-ring-necklace-artificial-gemstone",
+    "title": "Tricolor Ring Necklace - Artificial Gemstone",
+    "price": 55,
+    "images": [
+      "assets/rayray-authorized/products/eliph-tricolor-ring-necklace-artificial-gemstone/01.jpg",
+      "assets/rayray-authorized/products/eliph-tricolor-ring-necklace-artificial-gemstone/02.jpg",
+      "assets/rayray-authorized/products/eliph-tricolor-ring-necklace-artificial-gemstone/03.jpg"
+    ],
+    "variants": [
+      {
+        "id": 41183845810251,
+        "title": "Gold, Rose Gold, Sliver",
+        "option1": "Gold, Rose Gold, Sliver",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 55
+      }
+    ]
+  }
+]
