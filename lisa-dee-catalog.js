@@ -1,5 +1,5 @@
 const safe=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const category=p=>{const t=(p.title+' '+p.handle).toLowerCase();if(/clover|four.leaf/.test(t))return'clover';if(/love|screw/.test(t))return'love';if(/nail/.test(t))return'nail';if(/ring/.test(t))return'ring';if(/necklace|pendant/.test(t))return'necklace';if(/watch/.test(t))return'watch';return'bracelet'};
+const category=p=>{if(p.category)return p.category;const t=(p.title+' '+p.handle).toLowerCase();if(/clover|four.leaf/.test(t))return'clover';if(/love|screw/.test(t))return'love';if(/nail/.test(t))return'nail';if(/hardware|link/.test(t))return'hardware';if(/knot|woven/.test(t))return'knot';if(/earring|earclip/.test(t))return'earring';if(/ring/.test(t))return'ring';if(/necklace|pendant/.test(t))return'necklace';if(/watch/.test(t))return'watch';return'bracelet'};
 const money=n=>`$${Number(n).toFixed(2)} USD`;
 let products=[],active=new URLSearchParams(location.search).get('style')||'all';
 const grid=document.querySelector('#catalogGrid'),count=document.querySelector('#catalogCount'),search=document.querySelector('#catalogSearch');
