@@ -2,6 +2,12 @@
   const header = document.querySelector('.site-header');
   const primary = header?.querySelector('.desktop-nav');
   if (!header || !primary || header.querySelector('.shop-all-wrap')) return;
+  const wordmark = header.querySelector('.wordmark');
+  if (wordmark) {
+    wordmark.classList.add('heritage-logo');
+    wordmark.innerHTML = '<em>Heritage</em><small>LUXURY FINDS</small>';
+    wordmark.setAttribute('aria-label', 'Heritage Luxury Finds by Lisa Dee');
+  }
   primary.innerHTML = '';
   const wrap = document.createElement('div');
   wrap.className = 'shop-all-wrap';
