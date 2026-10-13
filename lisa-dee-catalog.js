@@ -1,4 +1,6 @@
 const safe=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const visualMatch=document.createElement('link');visualMatch.rel='stylesheet';visualMatch.href='rayray-match.css?v=20261013-1';document.head.append(visualMatch);
+const menuButton=document.createElement('button');menuButton.className='mobile-menu';menuButton.type='button';menuButton.setAttribute('aria-label','Browse the collection');menuButton.onclick=()=>location.href='lisa-dee-catalog.html';document.querySelector('.site-header')?.prepend(menuButton);
 const category=p=>{if(p.category)return p.category;const t=(p.title+' '+p.handle).toLowerCase();if(/clover|four.leaf/.test(t))return'clover';if(/love|screw/.test(t))return'love';if(/nail/.test(t))return'nail';if(/hardware|link/.test(t))return'hardware';if(/knot|woven/.test(t))return'knot';if(/earring|earclip/.test(t))return'earring';if(/ring/.test(t))return'ring';if(/necklace|pendant/.test(t))return'necklace';if(/watch/.test(t))return'watch';return'bracelet'};
 const money=n=>`$${Number(n).toFixed(2)} USD`;
 let products=[],active=new URLSearchParams(location.search).get('style')||'all';
