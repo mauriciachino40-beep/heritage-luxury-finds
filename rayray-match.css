@@ -1,4 +1,5 @@
 :root{--rr-wine:#520d08;--rr-text:#242424;--rr-line:#e6e6e6;--rr-bg:#fff}
+.lisa-dual-nav{min-height:43px;padding:0 32px;border-bottom:1px solid var(--rr-line);display:flex;align-items:center;justify-content:center;gap:42px;background:#fff;white-space:nowrap;overflow-x:auto}.lisa-dual-nav>div{display:flex;align-items:center;gap:15px}.lisa-dual-nav b{font-size:9px;letter-spacing:.12em;color:#777}.lisa-dual-nav a{color:var(--rr-text);font-size:11px;text-decoration:none}.lisa-dual-nav a:hover{text-decoration:underline}
 html{font-size:16px}body{background:var(--rr-bg);color:var(--rr-text);font-family:Arial,"Helvetica Neue",sans-serif;font-weight:400;letter-spacing:.01em}
 .announcement{height:39px;padding:0 20px;background:var(--rr-wine);display:flex;align-items:center;justify-content:center;font-size:11px;letter-spacing:.12em}
 .site-header{height:54px;padding:0 32px;display:grid;grid-template-columns:auto auto 1fr auto;gap:22px;background:#fff;border-bottom:1px solid var(--rr-line)}
