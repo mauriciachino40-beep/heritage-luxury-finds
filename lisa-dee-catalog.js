@@ -1,6 +1,6 @@
 const safe = value => String(value ?? '').replace(/[&<>"']/g, character => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[character]));
 const visualMatch = document.createElement('link');
-visualMatch.rel = 'stylesheet'; visualMatch.href = 'rayray-match.css?v=20261014-1'; document.head.append(visualMatch);
+visualMatch.rel = 'stylesheet'; visualMatch.href = 'rayray-match.css?v=20261017-2'; document.head.append(visualMatch);
 const menuButton = document.createElement('button');
 menuButton.className = 'mobile-menu'; menuButton.type = 'button'; menuButton.setAttribute('aria-label','Open navigation'); menuButton.setAttribute('aria-expanded','false'); document.querySelector('.site-header')?.prepend(menuButton);
 const styleFilters = new Set(['clover', 'love', 'nail', 'hardware', 'knot']);

@@ -1,7 +1,7 @@
 const safe = value => String(value ?? '').replace(/[&<>"']/g, character => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[character]));
 const money = value => `$${Number(value).toFixed(2)} USD`;
 const visualMatch = document.createElement('link');
-visualMatch.rel = 'stylesheet'; visualMatch.href = 'rayray-match.css?v=20261014-1'; document.head.append(visualMatch);
+visualMatch.rel = 'stylesheet'; visualMatch.href = 'rayray-match.css?v=20261017-2'; document.head.append(visualMatch);
 const productMatch = document.createElement('link');
 productMatch.rel = 'stylesheet'; productMatch.href = 'rayray-product-match.css?v=20261014-5'; document.head.append(productMatch);
 const assistantFont = document.createElement('link');
