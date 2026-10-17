@@ -3,10 +3,24 @@ const visualMatch = document.createElement('link');
 visualMatch.rel = 'stylesheet'; visualMatch.href = 'rayray-match.css?v=20261014-1'; document.head.append(visualMatch);
 const menuButton = document.createElement('button');
 menuButton.className = 'mobile-menu'; menuButton.type = 'button'; menuButton.setAttribute('aria-label','Open navigation'); menuButton.setAttribute('aria-expanded','false'); document.querySelector('.site-header')?.prepend(menuButton);
-const category = product => {
-  if (product.category) return product.category;
-  const text = `${product.title} ${product.handle}`.toLowerCase();
-  if (/clover|four.leaf/.test(text)) return 'clover'; if (/love|screw/.test(text)) return 'love'; if (/nail/.test(text)) return 'nail'; if (/hardware|link/.test(text)) return 'hardware'; if (/knot|woven/.test(text)) return 'knot'; if (/earring|earclip/.test(text)) return 'earring'; if (/ring/.test(text)) return 'ring'; if (/necklace|pendant/.test(text)) return 'necklace'; if (/watch/.test(text)) return 'watch'; return 'bracelet';
+const styleFilters = new Set(['clover', 'love', 'nail', 'hardware', 'knot']);
+const typeFilters = new Set(['necklace', 'bracelet', 'ring', 'earring', 'watch']);
+const titleText = product => String(product.title || '').toLowerCase();
+const hasWord = (text, word) => new RegExp(`(^|[^a-z])${word}([^a-z]|$)`, 'i').test(text);
+const jewelryType = product => {
+  const text = titleText(product);
+  if (/earrings?|earclips?|studs?/.test(text)) return 'earring';
+  if (/rings?/.test(text)) return 'ring';
+  if (/necklaces?|pendants?/.test(text)) return 'necklace';
+  if (/watch\s*bands?/.test(text)) return 'watch';
+  if (/bracelets?|bangles?/.test(text)) return 'bracelet';
+  return typeFilters.has(product.category) ? product.category : '';
+};
+const matchesFilter = (product, filter) => {
+  if (filter === 'all') return true;
+  if (typeFilters.has(filter)) return jewelryType(product) === filter;
+  if (styleFilters.has(filter)) return hasWord(titleText(product), filter);
+  return false;
 };
 const money = value => `$${Number(value).toFixed(2)} USD`;
 let products = [], active = new URLSearchParams(location.search).get('style') || 'all';
@@ -25,7 +39,7 @@ function render() {
   const query = search.value.trim().toLowerCase();
   const shown = products.filter(product => {
     const text = `${product.title} ${product.handle}`.toLowerCase();
-    return (!query || text.includes(query)) && (active === 'all' || category(product) === active || text.includes(active));
+    return (!query || text.includes(query)) && matchesFilter(product, active);
   });
   count.textContent = `${shown.length} PIECES`;
   grid.innerHTML = shown.map(product => {
