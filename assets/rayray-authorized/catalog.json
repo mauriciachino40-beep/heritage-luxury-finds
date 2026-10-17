@@ -6709,17 +6709,40 @@
     "title": "Love Bangle Thick — Multi Stone",
     "price": 95,
     "images": [
-      "assets/love-bangle-thick-multi-stone/yellow-gold.webp"
+      "assets/love-bangle-thick-multi-stone/yellow-gold.webp",
+      "assets/love-bangle-thick-multi-stone/white-gold.jpg",
+      "assets/love-bangle-thick-multi-stone/rose-gold.jpg"
     ],
     "variants": [
       {
-        "id": "love-bangle-thick-multi-stone-1",
-        "title": "Standard Selection",
-        "option1": "Standard Selection",
+        "id": "LB2-MS-YG",
+        "title": "Yellow Gold",
+        "option1": "Yellow Gold",
         "option2": null,
         "option3": null,
         "available": true,
-        "price": 95
+        "price": 95,
+        "image": "assets/love-bangle-thick-multi-stone/yellow-gold.webp"
+      },
+      {
+        "id": "LB2-MS-WG",
+        "title": "White Gold",
+        "option1": "White Gold",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 95,
+        "image": "assets/love-bangle-thick-multi-stone/white-gold.jpg"
+      },
+      {
+        "id": "LB2-MS-RG",
+        "title": "Rose Gold",
+        "option1": "Rose Gold",
+        "option2": null,
+        "option3": null,
+        "available": true,
+        "price": 95,
+        "image": "assets/love-bangle-thick-multi-stone/rose-gold.jpg"
       }
     ],
     "category": "love",

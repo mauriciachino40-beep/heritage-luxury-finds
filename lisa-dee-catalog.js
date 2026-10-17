@@ -51,4 +51,4 @@ function render() {
 }
 document.querySelectorAll('[data-filter]').forEach(button => button.onclick = () => { active = button.dataset.filter; history.replaceState(null,'',`?style=${active}`); render(); });
 search.oninput = render;
-fetch('assets/rayray-authorized/catalog.json').then(response => response.json()).then(data => { products = data; render(); }).catch(() => { grid.innerHTML = '<p class="catalog-empty">The collection could not be loaded. Please try again.</p>'; });
+fetch('assets/rayray-authorized/catalog.json?v=20261017-1').then(response => response.json()).then(data => { products = data; render(); }).catch(() => { grid.innerHTML = '<p class="catalog-empty">The collection could not be loaded. Please try again.</p>'; });

@@ -44,7 +44,7 @@ const productFamily = product => {
 };
 const recommendationTokens = product => new Set(`${product.handle} ${product.title}`.toLowerCase().split(/[^a-z0-9]+/).filter(token => token.length > 2 && !['the','and','with','edition','bracelet','bangle','ring','necklace','pendant','earring','earrings'].includes(token)));
 
-fetch('assets/rayray-authorized/catalog.json')
+fetch('assets/rayray-authorized/catalog.json?v=20261017-1')
   .then(response => response.json())
   .then(items => {
     const product = items.find(item => item.handle === handle);
@@ -69,6 +69,10 @@ fetch('assets/rayray-authorized/catalog.json')
       const variant = variants.find(item => groups.every(group => item[group.key] === selected[group.key])) || variants[0];
       document.querySelector('#price').textContent = money(variant.price);
       document.querySelector('.lisa-sku-value').textContent = variant.id || '';
+      if (variant.image) {
+        document.querySelector('#mainImage').src = variant.image;
+        app.querySelectorAll('[data-image]').forEach(item => item.classList.toggle('active', item.dataset.image === variant.image));
+      }
     };
     app.querySelectorAll('.rr-option-group').forEach(groupElement => groupElement.querySelectorAll('.rr-option').forEach(button => button.onclick = () => {
       const key = groupElement.dataset.optionKey;
